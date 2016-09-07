@@ -1,0 +1,15 @@
+PODS:
+  - Godzippa (1.1.0)
+  - SSZipArchive (1.5)
+
+DEPENDENCIES:
+  - Godzippa
+  - SSZipArchive (~> 1.5)
+
+SPEC CHECKSUMS:
+  Godzippa: 21621e8ddc2f1521db473a72b48148c3f0e79d76
+  SSZipArchive: 29daace2bccb90a47de2837744da397728ff9207
+
+PODFILE CHECKSUM: c8f239f23146f47596caf03ea484d29cb1e68c47
+
+COCOAPODS: 1.0.1

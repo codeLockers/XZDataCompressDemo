@@ -1,0 +1,487 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DCDF72354666AFCC46FBF785 /* libPods-XZDataCompressDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6183AAF6AC5436F4BADB7805 /* libPods-XZDataCompressDemo.a */; };
+		E90473991D7FC02800E99F31 /* XZVideoCompressViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E90473971D7FC02800E99F31 /* XZVideoCompressViewController.m */; };
+		E904739A1D7FC02800E99F31 /* XZVideoCompressViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E90473981D7FC02800E99F31 /* XZVideoCompressViewController.xib */; };
+		E904739C1D7FC03600E99F31 /* video.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = E904739B1D7FC03600E99F31 /* video.mp4 */; };
+		E90473A01D7FDA9300E99F31 /* XZZlibHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = E904739F1D7FDA9300E99F31 /* XZZlibHelper.m */; };
+		E90473A41D7FDB4300E99F31 /* XZStringCompressViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E90473A21D7FDB4300E99F31 /* XZStringCompressViewController.m */; };
+		E90473A51D7FDB4300E99F31 /* XZStringCompressViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E90473A31D7FDB4300E99F31 /* XZStringCompressViewController.xib */; };
+		E90473AA1D7FE23000E99F31 /* XZZipCompressViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E90473A81D7FE23000E99F31 /* XZZipCompressViewController.m */; };
+		E90473AB1D7FE23000E99F31 /* XZZipCompressViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E90473A91D7FE23000E99F31 /* XZZipCompressViewController.xib */; };
+		E9162BB81D7EB98E00F3FA70 /* UIImage+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = E9162BB71D7EB98E00F3FA70 /* UIImage+Category.m */; };
+		E9162BC21D7EC08C00F3FA70 /* XZImageCompressViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9162BC01D7EC08C00F3FA70 /* XZImageCompressViewController.m */; };
+		E9162BC31D7EC08C00F3FA70 /* XZImageCompressViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E9162BC11D7EC08C00F3FA70 /* XZImageCompressViewController.xib */; };
+		E9162BC91D7EC20500F3FA70 /* image.png in Resources */ = {isa = PBXBuildFile; fileRef = E9162BC81D7EC20500F3FA70 /* image.png */; };
+		E9D3435A1D7E9CA8001D3F21 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E9D343591D7E9CA8001D3F21 /* main.m */; };
+		E9D3435D1D7E9CA8001D3F21 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E9D3435C1D7E9CA8001D3F21 /* AppDelegate.m */; };
+		E9D343601D7E9CA8001D3F21 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9D3435F1D7E9CA8001D3F21 /* ViewController.m */; };
+		E9D343631D7E9CA8001D3F21 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9D343611D7E9CA8001D3F21 /* Main.storyboard */; };
+		E9D343651D7E9CA8001D3F21 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9D343641D7E9CA8001D3F21 /* Assets.xcassets */; };
+		E9D343681D7E9CA8001D3F21 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9D343661D7E9CA8001D3F21 /* LaunchScreen.storyboard */; };
+		E9D343761D7E9F5C001D3F21 /* XZGzipHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = E9D343751D7E9F5C001D3F21 /* XZGzipHelper.m */; };
+		E9D3437A1D7EAAF4001D3F21 /* libz.1.2.5.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = E9D343791D7EAAF4001D3F21 /* libz.1.2.5.tbd */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6183AAF6AC5436F4BADB7805 /* libPods-XZDataCompressDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-XZDataCompressDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E90473961D7FC02800E99F31 /* XZVideoCompressViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XZVideoCompressViewController.h; sourceTree = "<group>"; };
+		E90473971D7FC02800E99F31 /* XZVideoCompressViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XZVideoCompressViewController.m; sourceTree = "<group>"; };
+		E90473981D7FC02800E99F31 /* XZVideoCompressViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XZVideoCompressViewController.xib; sourceTree = "<group>"; };
+		E904739B1D7FC03600E99F31 /* video.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video.mp4; sourceTree = "<group>"; };
+		E904739E1D7FDA9300E99F31 /* XZZlibHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XZZlibHelper.h; sourceTree = "<group>"; };
+		E904739F1D7FDA9300E99F31 /* XZZlibHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XZZlibHelper.m; sourceTree = "<group>"; };
+		E90473A11D7FDB4300E99F31 /* XZStringCompressViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XZStringCompressViewController.h; sourceTree = "<group>"; };
+		E90473A21D7FDB4300E99F31 /* XZStringCompressViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XZStringCompressViewController.m; sourceTree = "<group>"; };
+		E90473A31D7FDB4300E99F31 /* XZStringCompressViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XZStringCompressViewController.xib; sourceTree = "<group>"; };
+		E90473A71D7FE23000E99F31 /* XZZipCompressViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XZZipCompressViewController.h; sourceTree = "<group>"; };
+		E90473A81D7FE23000E99F31 /* XZZipCompressViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XZZipCompressViewController.m; sourceTree = "<group>"; };
+		E90473A91D7FE23000E99F31 /* XZZipCompressViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XZZipCompressViewController.xib; sourceTree = "<group>"; };
+		E9162BB61D7EB98E00F3FA70 /* UIImage+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Category.h"; sourceTree = "<group>"; };
+		E9162BB71D7EB98E00F3FA70 /* UIImage+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Category.m"; sourceTree = "<group>"; };
+		E9162BBF1D7EC08C00F3FA70 /* XZImageCompressViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XZImageCompressViewController.h; sourceTree = "<group>"; };
+		E9162BC01D7EC08C00F3FA70 /* XZImageCompressViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XZImageCompressViewController.m; sourceTree = "<group>"; };
+		E9162BC11D7EC08C00F3FA70 /* XZImageCompressViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XZImageCompressViewController.xib; sourceTree = "<group>"; };
+		E9162BC81D7EC20500F3FA70 /* image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image.png; sourceTree = "<group>"; };
+		E9D343551D7E9CA8001D3F21 /* XZDataCompressDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XZDataCompressDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9D343591D7E9CA8001D3F21 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E9D3435B1D7E9CA8001D3F21 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E9D3435C1D7E9CA8001D3F21 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E9D3435E1D7E9CA8001D3F21 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E9D3435F1D7E9CA8001D3F21 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E9D343621D7E9CA8001D3F21 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E9D343641D7E9CA8001D3F21 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E9D343671D7E9CA8001D3F21 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E9D343691D7E9CA8001D3F21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9D343741D7E9F5C001D3F21 /* XZGzipHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XZGzipHelper.h; sourceTree = "<group>"; };
+		E9D343751D7E9F5C001D3F21 /* XZGzipHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XZGzipHelper.m; sourceTree = "<group>"; };
+		E9D343791D7EAAF4001D3F21 /* libz.1.2.5.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.1.2.5.tbd; path = usr/lib/libz.1.2.5.tbd; sourceTree = SDKROOT; };
+		FB3D9CFCF967F450C34FE70C /* Pods-XZDataCompressDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XZDataCompressDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-XZDataCompressDemo/Pods-XZDataCompressDemo.release.xcconfig"; sourceTree = "<group>"; };
+		FB85EBA5BB6E85F962B0D175 /* Pods-XZDataCompressDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XZDataCompressDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XZDataCompressDemo/Pods-XZDataCompressDemo.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E9D343521D7E9CA8001D3F21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9D3437A1D7EAAF4001D3F21 /* libz.1.2.5.tbd in Frameworks */,
+				DCDF72354666AFCC46FBF785 /* libPods-XZDataCompressDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7CC7C48AC19C77C46312AEC8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FB85EBA5BB6E85F962B0D175 /* Pods-XZDataCompressDemo.debug.xcconfig */,
+				FB3D9CFCF967F450C34FE70C /* Pods-XZDataCompressDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9C84AA3B17222FB43828EE83 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6183AAF6AC5436F4BADB7805 /* libPods-XZDataCompressDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E90473951D7FC00900E99F31 /* Video */ = {
+			isa = PBXGroup;
+			children = (
+				E904739B1D7FC03600E99F31 /* video.mp4 */,
+				E90473961D7FC02800E99F31 /* XZVideoCompressViewController.h */,
+				E90473971D7FC02800E99F31 /* XZVideoCompressViewController.m */,
+				E90473981D7FC02800E99F31 /* XZVideoCompressViewController.xib */,
+			);
+			name = Video;
+			sourceTree = "<group>";
+		};
+		E904739D1D7FDA3500E99F31 /* String */ = {
+			isa = PBXGroup;
+			children = (
+				E9D343741D7E9F5C001D3F21 /* XZGzipHelper.h */,
+				E9D343751D7E9F5C001D3F21 /* XZGzipHelper.m */,
+				E904739E1D7FDA9300E99F31 /* XZZlibHelper.h */,
+				E904739F1D7FDA9300E99F31 /* XZZlibHelper.m */,
+				E90473A11D7FDB4300E99F31 /* XZStringCompressViewController.h */,
+				E90473A21D7FDB4300E99F31 /* XZStringCompressViewController.m */,
+				E90473A31D7FDB4300E99F31 /* XZStringCompressViewController.xib */,
+			);
+			name = String;
+			sourceTree = "<group>";
+		};
+		E90473A61D7FE21A00E99F31 /* Zip */ = {
+			isa = PBXGroup;
+			children = (
+				E90473A71D7FE23000E99F31 /* XZZipCompressViewController.h */,
+				E90473A81D7FE23000E99F31 /* XZZipCompressViewController.m */,
+				E90473A91D7FE23000E99F31 /* XZZipCompressViewController.xib */,
+			);
+			name = Zip;
+			sourceTree = "<group>";
+		};
+		E9162BB91D7EBBB500F3FA70 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				E9162BC81D7EC20500F3FA70 /* image.png */,
+				E9162BB61D7EB98E00F3FA70 /* UIImage+Category.h */,
+				E9162BB71D7EB98E00F3FA70 /* UIImage+Category.m */,
+				E9162BBF1D7EC08C00F3FA70 /* XZImageCompressViewController.h */,
+				E9162BC01D7EC08C00F3FA70 /* XZImageCompressViewController.m */,
+				E9162BC11D7EC08C00F3FA70 /* XZImageCompressViewController.xib */,
+			);
+			name = Image;
+			sourceTree = "<group>";
+		};
+		E9D3434C1D7E9CA8001D3F21 = {
+			isa = PBXGroup;
+			children = (
+				E9D343791D7EAAF4001D3F21 /* libz.1.2.5.tbd */,
+				E9D343571D7E9CA8001D3F21 /* XZDataCompressDemo */,
+				E9D343561D7E9CA8001D3F21 /* Products */,
+				7CC7C48AC19C77C46312AEC8 /* Pods */,
+				9C84AA3B17222FB43828EE83 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E9D343561D7E9CA8001D3F21 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E9D343551D7E9CA8001D3F21 /* XZDataCompressDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E9D343571D7E9CA8001D3F21 /* XZDataCompressDemo */ = {
+			isa = PBXGroup;
+			children = (
+				E9D3435B1D7E9CA8001D3F21 /* AppDelegate.h */,
+				E9D3435C1D7E9CA8001D3F21 /* AppDelegate.m */,
+				E9D3435E1D7E9CA8001D3F21 /* ViewController.h */,
+				E9D3435F1D7E9CA8001D3F21 /* ViewController.m */,
+				E9D343611D7E9CA8001D3F21 /* Main.storyboard */,
+				E90473A61D7FE21A00E99F31 /* Zip */,
+				E904739D1D7FDA3500E99F31 /* String */,
+				E90473951D7FC00900E99F31 /* Video */,
+				E9162BB91D7EBBB500F3FA70 /* Image */,
+				E9D343641D7E9CA8001D3F21 /* Assets.xcassets */,
+				E9D343661D7E9CA8001D3F21 /* LaunchScreen.storyboard */,
+				E9D343691D7E9CA8001D3F21 /* Info.plist */,
+				E9D343581D7E9CA8001D3F21 /* Supporting Files */,
+			);
+			path = XZDataCompressDemo;
+			sourceTree = "<group>";
+		};
+		E9D343581D7E9CA8001D3F21 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E9D343591D7E9CA8001D3F21 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E9D343541D7E9CA8001D3F21 /* XZDataCompressDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9D3436C1D7E9CA8001D3F21 /* Build configuration list for PBXNativeTarget "XZDataCompressDemo" */;
+			buildPhases = (
+				558CA97B647AF83F263D7A48 /* [CP] Check Pods Manifest.lock */,
+				E9D343511D7E9CA8001D3F21 /* Sources */,
+				E9D343521D7E9CA8001D3F21 /* Frameworks */,
+				E9D343531D7E9CA8001D3F21 /* Resources */,
+				C03A97F88092D0F37D7A7618 /* [CP] Embed Pods Frameworks */,
+				95B9E084B5479131EAF45EAD /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XZDataCompressDemo;
+			productName = XZDataCompressDemo;
+			productReference = E9D343551D7E9CA8001D3F21 /* XZDataCompressDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E9D3434D1D7E9CA8001D3F21 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "徐章";
+				TargetAttributes = {
+					E9D343541D7E9CA8001D3F21 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = E9D343501D7E9CA8001D3F21 /* Build configuration list for PBXProject "XZDataCompressDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E9D3434C1D7E9CA8001D3F21;
+			productRefGroup = E9D343561D7E9CA8001D3F21 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E9D343541D7E9CA8001D3F21 /* XZDataCompressDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E9D343531D7E9CA8001D3F21 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E904739A1D7FC02800E99F31 /* XZVideoCompressViewController.xib in Resources */,
+				E9D343681D7E9CA8001D3F21 /* LaunchScreen.storyboard in Resources */,
+				E9D343651D7E9CA8001D3F21 /* Assets.xcassets in Resources */,
+				E90473A51D7FDB4300E99F31 /* XZStringCompressViewController.xib in Resources */,
+				E90473AB1D7FE23000E99F31 /* XZZipCompressViewController.xib in Resources */,
+				E9162BC31D7EC08C00F3FA70 /* XZImageCompressViewController.xib in Resources */,
+				E904739C1D7FC03600E99F31 /* video.mp4 in Resources */,
+				E9D343631D7E9CA8001D3F21 /* Main.storyboard in Resources */,
+				E9162BC91D7EC20500F3FA70 /* image.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		558CA97B647AF83F263D7A48 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		95B9E084B5479131EAF45EAD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XZDataCompressDemo/Pods-XZDataCompressDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C03A97F88092D0F37D7A7618 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XZDataCompressDemo/Pods-XZDataCompressDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E9D343511D7E9CA8001D3F21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9D343601D7E9CA8001D3F21 /* ViewController.m in Sources */,
+				E9162BB81D7EB98E00F3FA70 /* UIImage+Category.m in Sources */,
+				E9162BC21D7EC08C00F3FA70 /* XZImageCompressViewController.m in Sources */,
+				E9D3435D1D7E9CA8001D3F21 /* AppDelegate.m in Sources */,
+				E90473AA1D7FE23000E99F31 /* XZZipCompressViewController.m in Sources */,
+				E90473A01D7FDA9300E99F31 /* XZZlibHelper.m in Sources */,
+				E9D343761D7E9F5C001D3F21 /* XZGzipHelper.m in Sources */,
+				E90473A41D7FDB4300E99F31 /* XZStringCompressViewController.m in Sources */,
+				E90473991D7FC02800E99F31 /* XZVideoCompressViewController.m in Sources */,
+				E9D3435A1D7E9CA8001D3F21 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E9D343611D7E9CA8001D3F21 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E9D343621D7E9CA8001D3F21 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E9D343661D7E9CA8001D3F21 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E9D343671D7E9CA8001D3F21 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E9D3436A1D7E9CA8001D3F21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E9D3436B1D7E9CA8001D3F21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E9D3436D1D7E9CA8001D3F21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB85EBA5BB6E85F962B0D175 /* Pods-XZDataCompressDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = XZDataCompressDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = codeLocker.XZDataCompressDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E9D3436E1D7E9CA8001D3F21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB3D9CFCF967F450C34FE70C /* Pods-XZDataCompressDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = XZDataCompressDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = codeLocker.XZDataCompressDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E9D343501D7E9CA8001D3F21 /* Build configuration list for PBXProject "XZDataCompressDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9D3436A1D7E9CA8001D3F21 /* Debug */,
+				E9D3436B1D7E9CA8001D3F21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E9D3436C1D7E9CA8001D3F21 /* Build configuration list for PBXNativeTarget "XZDataCompressDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9D3436D1D7E9CA8001D3F21 /* Debug */,
+				E9D3436E1D7E9CA8001D3F21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E9D3434D1D7E9CA8001D3F21 /* Project object */;
+}

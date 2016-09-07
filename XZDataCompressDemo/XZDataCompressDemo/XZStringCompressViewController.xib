@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="XZStringCompressViewController">
+            <connections>
+                <outlet property="godzippaSizeLab" destination="oR3-0y-KDH" id="0aP-Ag-SoH"/>
+                <outlet property="gzipSizeLab" destination="tl4-5m-Dqf" id="bzq-ad-VbH"/>
+                <outlet property="originSizeLab" destination="5Ld-0p-KdF" id="Fc0-OL-EeR"/>
+                <outlet property="textView" destination="DwG-5C-Pii" id="1yF-oY-kzM"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+                <outlet property="zlibSizeLab" destination="G2Y-NL-arF" id="76i-TN-qlc"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DVz-oP-vkw">
+                    <rect key="frame" x="0.0" y="528" width="320" height="40"/>
+                    <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="OjL-7X-Q5k"/>
+                    </constraints>
+                    <state key="normal" title="压缩">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="compressBtn_Pressed:" destination="-1" eventType="touchUpInside" id="9Ef-oU-Sql"/>
+                    </connections>
+                </button>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="DwG-5C-Pii">
+                    <rect key="frame" x="10" y="70" width="300" height="150"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="150" id="dxK-nH-Tm0"/>
+                    </constraints>
+                    <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                </textView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Zlib压缩:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="G3V-tt-JAl">
+                    <rect key="frame" x="10" y="250" width="60" height="18"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Gzip压缩:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eeh-Xj-OWt">
+                    <rect key="frame" x="10" y="298" width="66" height="18"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0字节" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="G2Y-NL-arF">
+                    <rect key="frame" x="70" y="250" width="40" height="18"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0字节" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tl4-5m-Dqf">
+                    <rect key="frame" x="76" y="298" width="40" height="18"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="GodZippa压缩:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zew-9F-t7D">
+                    <rect key="frame" x="10" y="346" width="102" height="18"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0字节" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oR3-0y-KDH">
+                    <rect key="frame" x="112" y="346" width="40" height="18"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="原文不压缩:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lv8-VR-lCR">
+                    <rect key="frame" x="10" y="394" width="80" height="18"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0字节" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5Ld-0p-KdF">
+                    <rect key="frame" x="90" y="394" width="40" height="18"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="eeh-Xj-OWt" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="10" id="25a-xs-P07"/>
+                <constraint firstItem="G2Y-NL-arF" firstAttribute="centerY" secondItem="G3V-tt-JAl" secondAttribute="centerY" id="2Ml-1P-PAR"/>
+                <constraint firstItem="oR3-0y-KDH" firstAttribute="centerY" secondItem="zew-9F-t7D" secondAttribute="centerY" id="5lT-bx-obW"/>
+                <constraint firstItem="oR3-0y-KDH" firstAttribute="leading" secondItem="zew-9F-t7D" secondAttribute="trailing" id="7IJ-sf-WLL"/>
+                <constraint firstItem="zew-9F-t7D" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="10" id="8Xe-CM-qZK"/>
+                <constraint firstItem="Lv8-VR-lCR" firstAttribute="top" secondItem="zew-9F-t7D" secondAttribute="bottom" constant="30" id="BfH-Xw-Niq"/>
+                <constraint firstItem="G3V-tt-JAl" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="10" id="JLu-Fh-caJ"/>
+                <constraint firstItem="DwG-5C-Pii" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="70" id="JgA-Hs-YcP"/>
+                <constraint firstItem="5Ld-0p-KdF" firstAttribute="leading" secondItem="Lv8-VR-lCR" secondAttribute="trailing" id="KwT-nX-oKL"/>
+                <constraint firstAttribute="bottom" secondItem="DVz-oP-vkw" secondAttribute="bottom" id="Prh-Ur-eNh"/>
+                <constraint firstItem="zew-9F-t7D" firstAttribute="top" secondItem="eeh-Xj-OWt" secondAttribute="bottom" constant="30" id="QXj-yL-hkw"/>
+                <constraint firstAttribute="trailing" secondItem="DwG-5C-Pii" secondAttribute="trailing" constant="10" id="RjP-TS-W1d"/>
+                <constraint firstItem="DVz-oP-vkw" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="Xga-NV-qrU"/>
+                <constraint firstItem="eeh-Xj-OWt" firstAttribute="top" secondItem="G3V-tt-JAl" secondAttribute="bottom" constant="30" id="c8Q-Wc-3oi"/>
+                <constraint firstItem="DwG-5C-Pii" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="10" id="cy4-jJ-dW0"/>
+                <constraint firstItem="Lv8-VR-lCR" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="10" id="eyR-Jw-f7Z"/>
+                <constraint firstItem="tl4-5m-Dqf" firstAttribute="leading" secondItem="eeh-Xj-OWt" secondAttribute="trailing" id="gYD-eT-VtO"/>
+                <constraint firstItem="G3V-tt-JAl" firstAttribute="top" secondItem="DwG-5C-Pii" secondAttribute="bottom" constant="30" id="kd6-ds-X21"/>
+                <constraint firstItem="tl4-5m-Dqf" firstAttribute="centerY" secondItem="eeh-Xj-OWt" secondAttribute="centerY" id="mqu-gF-asQ"/>
+                <constraint firstItem="G2Y-NL-arF" firstAttribute="leading" secondItem="G3V-tt-JAl" secondAttribute="trailing" id="nMY-PY-abb"/>
+                <constraint firstAttribute="trailing" secondItem="DVz-oP-vkw" secondAttribute="trailing" id="srW-Nx-Frm"/>
+                <constraint firstItem="5Ld-0p-KdF" firstAttribute="centerY" secondItem="Lv8-VR-lCR" secondAttribute="centerY" id="xrx-Ci-FeI"/>
+            </constraints>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+            <point key="canvasLocation" x="104" y="250"/>
+        </view>
+    </objects>
+</document>
