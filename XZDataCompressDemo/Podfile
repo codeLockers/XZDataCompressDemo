@@ -3,5 +3,6 @@ platform :ios, '7.0'
 target 'XZDataCompressDemo' do
 pod 'SSZipArchive', '~> 1.5'
 pod 'Godzippa'
+pod 'zipzap'
 end
 

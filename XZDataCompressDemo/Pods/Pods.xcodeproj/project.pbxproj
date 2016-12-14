@@ -7,144 +7,254 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		01C097E68A7699FCBC9DA149EBEE4BE3 /* prng.c in Sources */ = {isa = PBXBuildFile; fileRef = 5A8F77C086844F7D123F2D96D2931D25 /* prng.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		01FE889CA9FF37F37465249313767A05 /* NSData+Godzippa.h in Headers */ = {isa = PBXBuildFile; fileRef = 601FEEEE65F494D6FE48BF233A21D13D /* NSData+Godzippa.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		03AEACFE5BFFD3E6E85679F3F844C655 /* mztools.h in Headers */ = {isa = PBXBuildFile; fileRef = FDA56518D53A74811B44D2E7757E5FF5 /* mztools.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		07380DA96AEFD25E285547EB5A4E4C00 /* hmac.c in Sources */ = {isa = PBXBuildFile; fileRef = D069B7725A9EF2C14B270B24DCD416C6 /* hmac.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		078CB46D11D52B3ACE006822639454D1 /* SSZipArchive.m in Sources */ = {isa = PBXBuildFile; fileRef = 81FAC1DD7E4359D3A7D97D949FC3FBE0 /* SSZipArchive.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		082CD639FA3C73F5F7A9F76823763BE9 /* aes_via_ace.h in Headers */ = {isa = PBXBuildFile; fileRef = D7F171D7B7FD31376C1049EB3A5DB482 /* aes_via_ace.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		099B318307E7034B4D36417E75A12FB8 /* NSFileManager+Godzippa.m in Sources */ = {isa = PBXBuildFile; fileRef = 142741C7F1A69AD775DC20AEADD0A127 /* NSFileManager+Godzippa.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		112F163E941D404AAD7F1680DF2677B9 /* NSFileManager+Godzippa.h in Headers */ = {isa = PBXBuildFile; fileRef = FC9A91F320351561C1B6145DBDBD6A56 /* NSFileManager+Godzippa.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		174762D6F13BD38ACE11F6F127BC82DE /* pwd2key.h in Headers */ = {isa = PBXBuildFile; fileRef = 73D3F4C05F58CEAA1D3C3D0BE7EDFB74 /* pwd2key.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		195045D6E1363AE90827EAC2963F3780 /* aestab.h in Headers */ = {isa = PBXBuildFile; fileRef = BC6E03BB728AB03E9D815C0E45E84451 /* aestab.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		1C30B591DDF24B9E084D50B4387F5696 /* entropy.h in Headers */ = {isa = PBXBuildFile; fileRef = 837D258BB56917A164ECBE775A3F070B /* entropy.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		2008D8405BA2C22450327AD388AA730C /* aestab.c in Sources */ = {isa = PBXBuildFile; fileRef = CF60E86550F0FBF0119598AE4C6345EC /* aestab.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		26C2B9820FA054F51726A579AA869CFB /* sha1.h in Headers */ = {isa = PBXBuildFile; fileRef = B47AFDD40317AC40A06BDB3A114EF42B /* sha1.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		2C055C763D5EB46CC2F98E96D1BF54C0 /* pwd2key.c in Sources */ = {isa = PBXBuildFile; fileRef = 5C19A70952325A52184476BF76565FAA /* pwd2key.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		4805D2BABBE4D68612D2B46D4D29E64A /* aes.h in Headers */ = {isa = PBXBuildFile; fileRef = 8109B5CBAA2AECBB94BCC47F5A19C773 /* aes.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		485256D917DE811BD23BC9D5BB2A7781 /* brg_types.h in Headers */ = {isa = PBXBuildFile; fileRef = D7DF73BC8E416071CFE0C857EF0BE50A /* brg_types.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		4F0800C3F5F3978BD07CDD4C5CFB2369 /* fileenc.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A073B09517BF3480395B03C96557436 /* fileenc.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		4FF323971185FD20FB0A635EEABDD5C6 /* hmac.h in Headers */ = {isa = PBXBuildFile; fileRef = 12949ECD4B61B3D4E38C584A036E5915 /* hmac.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		547F56CFF1728ACAC68EE8EF4984FE21 /* SSZipArchive-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C1E0946F31BFDF8CEF87664E005140D4 /* SSZipArchive-dummy.m */; };
-		5596476BFE442BDB2C25F0149C190053 /* fileenc.c in Sources */ = {isa = PBXBuildFile; fileRef = 99B78B7DF2CBB790EB0CC3659A234801 /* fileenc.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		68CD5B43C3A9DAB47C8C9B43874A0BF6 /* aescrypt.c in Sources */ = {isa = PBXBuildFile; fileRef = 03A4C59133FBF5431E58A120FCE1192E /* aescrypt.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		6FE7ADA390B390EF2EE8B9124D8A3DFF /* unzip.c in Sources */ = {isa = PBXBuildFile; fileRef = 3F3617EBA23ED815730634BAEEA6EA64 /* unzip.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		6FFEBF1A3F6784D465D190AD4AFA5E7A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
-		79F60B7E9613CFDE32C9097F26C58D85 /* zip.c in Sources */ = {isa = PBXBuildFile; fileRef = 83A0AA602A288848482670FC38DDC58E /* zip.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		7A360323932661D0678951CA835559A4 /* crypt.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E2D1277FBFBFA95D156BA0681DAC9C5 /* crypt.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		7F59572D951D77B18F989C6A37418ABB /* SSZipCommon.h in Headers */ = {isa = PBXBuildFile; fileRef = DA4EFE5E039C770E2133834F1C87640F /* SSZipCommon.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		82CE448F430AC1EBCCE994E4967DD89E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
-		83DA666E04F81733580E7942D2B1C344 /* NSData+Godzippa.m in Sources */ = {isa = PBXBuildFile; fileRef = F9B734352245E18A1C6A1E65369316EC /* NSData+Godzippa.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		8F648E7DE005A208124A6D80CE4FFC8A /* Godzippa.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B57EF7648CFB1C5C8E139C77E836F51 /* Godzippa.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9582BA8186E4FCE31CC8C45BFA82E3DC /* mztools.c in Sources */ = {isa = PBXBuildFile; fileRef = 59EE402B2A597EEB253818A65FD02DBD /* mztools.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		A0B56236329565459ABE56E34CD2923F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
-		AE6DB3CEC8F141BCFE5D05F124E4E936 /* ZipArchive.h in Headers */ = {isa = PBXBuildFile; fileRef = 969AF927ACC3FAB9DA06EAE4EF35506E /* ZipArchive.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B9CCE3079747EF4A33ACB020FB6733FE /* Pods-XZDataCompressDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ECF1C44C33D9EE71C1AEE728B831DBF /* Pods-XZDataCompressDemo-dummy.m */; };
-		BC74EE4DEA4D75BFC00085827CF5B2B2 /* SSZipArchive.h in Headers */ = {isa = PBXBuildFile; fileRef = A9E8FD7AA849C2A078693D06C85CE0BC /* SSZipArchive.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C03442E659118EA60FC04695AB436069 /* zip.h in Headers */ = {isa = PBXBuildFile; fileRef = 627F2DE7127F272F3D6E4313CC58DC78 /* zip.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		C4B919C77BCA40275B74507B02080A90 /* ioapi.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C15C2965B5FCDDBFCB12DC04FBA245B /* ioapi.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		CED953E2F8548655DB4E301A1AE76ED6 /* aesopt.h in Headers */ = {isa = PBXBuildFile; fileRef = AB5D9D61D66DE4CAE8C30CA2BFF0286A /* aesopt.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		CF73AFEF812A505DC9A126A11A2D1139 /* unzip.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E8F7EBE59B75D3A86E80CB8187E22F2 /* unzip.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		D4E8BD28111176CEED0D768E5B679FC8 /* entropy.c in Sources */ = {isa = PBXBuildFile; fileRef = 0B5E48EC3475A90DED563D9AE8D2DD09 /* entropy.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		DD5FE907E861F29D5A3A316412886B9B /* sha1.c in Sources */ = {isa = PBXBuildFile; fileRef = FB1157A9AB17E704D5009B2120CBD2CB /* sha1.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		DDCDACFA2046BA9530EBA36E0B830A56 /* aeskey.c in Sources */ = {isa = PBXBuildFile; fileRef = 1B2C3A4137382A3056780D9226C9F3F3 /* aeskey.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		E273CBFB7037A84C600ADA491F9CC79A /* Godzippa-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E8A9405F0ADC411AF223204B4B66582 /* Godzippa-dummy.m */; };
-		E2F71C73D10BE00E08EBA304C1110D6B /* prng.h in Headers */ = {isa = PBXBuildFile; fileRef = 446653A8DEE021754DECC876F4B32327 /* prng.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		EFF7C13F0A17AFEB85682845D2B7E309 /* brg_endian.h in Headers */ = {isa = PBXBuildFile; fileRef = 43C0EDC53D426307EF410D45B244CA14 /* brg_endian.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		FFFC4C741B9ACAF6C42B2A3C368F67BD /* ioapi.c in Sources */ = {isa = PBXBuildFile; fileRef = 2D5F42C13E4A05B3221F775936827335 /* ioapi.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		01FE889CA9FF37F37465249313767A05 /* NSData+Godzippa.h in Headers */ = {isa = PBXBuildFile; fileRef = 4131F304F6DC9A89886F8DD9E21A2E74 /* NSData+Godzippa.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		05B776BDB828B65671CE0195B5AA88A2 /* zip.c in Sources */ = {isa = PBXBuildFile; fileRef = 4B32DE6EADFF33EFE316745B53E93D42 /* zip.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		099B318307E7034B4D36417E75A12FB8 /* NSFileManager+Godzippa.m in Sources */ = {isa = PBXBuildFile; fileRef = 163C6F432F4DE703EE730670B7A4FAA1 /* NSFileManager+Godzippa.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		09AE5FAEC3D12FF14429940792D6676D /* fileenc.h in Headers */ = {isa = PBXBuildFile; fileRef = 210E691287C8EA16842AB5F08BAB54D4 /* fileenc.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		0BEC67B6D0CDD811FEEC0A695318433D /* ZZStandardDecryptInputStream.mm in Sources */ = {isa = PBXBuildFile; fileRef = D5E1741AF7CD9775D44BC5113456FCEF /* ZZStandardDecryptInputStream.mm */; };
+		0CEFBD864803AFF6CF76985483251A54 /* mztools.c in Sources */ = {isa = PBXBuildFile; fileRef = A0F7162EDFD718B8F905FCF57A2CD5E5 /* mztools.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		0DB65043A1070A131A1158DF9F9CA74A /* ZZDataChannelOutput.h in Headers */ = {isa = PBXBuildFile; fileRef = C090DE3D76F2106B1A94B92F20D12FDC /* ZZDataChannelOutput.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		0EACBE1614CAA2351C81F40D20B4E071 /* ioapi.c in Sources */ = {isa = PBXBuildFile; fileRef = C2589CA237695D7FBD985E6F360E704F /* ioapi.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		0EF902F849FB4BB51FF7E52CB9E64008 /* aes.h in Headers */ = {isa = PBXBuildFile; fileRef = 6DEA356D06ABB7209F72F49A5A619789 /* aes.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		0F32B261BC326008938C6F75F34D9356 /* brg_types.h in Headers */ = {isa = PBXBuildFile; fileRef = 0EA274678FA4BE793EF0ECF8AB9639F1 /* brg_types.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		112F163E941D404AAD7F1680DF2677B9 /* NSFileManager+Godzippa.h in Headers */ = {isa = PBXBuildFile; fileRef = 1104A9D05804272B07C68FFE0E279154 /* NSFileManager+Godzippa.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		136CC9B5D8694F3BE9FECB6D0B14B819 /* ZZFileChannel.m in Sources */ = {isa = PBXBuildFile; fileRef = FB22A58A5CC250CAEAC68D850B959FFB /* ZZFileChannel.m */; };
+		144BF6199D243FB3C4163263FF07BEF7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79C43EBA6705504C4AE1C53A721903E0 /* Foundation.framework */; };
+		14A2BC61F9C5AF1A43C353C37DB71152 /* ZZDeflateOutputStream.h in Headers */ = {isa = PBXBuildFile; fileRef = EE563727FB8AE611302F65E478B68261 /* ZZDeflateOutputStream.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		16AB609A0C4BCE886E73E5B634833F8B /* zipzap-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 29345B74B52BD4FC693EAC64572EC116 /* zipzap-dummy.m */; };
+		1C5BFD3886CA083CA34F17758570507E /* ZZArchive.h in Headers */ = {isa = PBXBuildFile; fileRef = 759D32C2BFE5ABEC49A70557FDFDE796 /* ZZArchive.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1D9A783632CBAD9E561E7911822EECB5 /* SSZipArchive.m in Sources */ = {isa = PBXBuildFile; fileRef = DB30EBBB26ABA5A4C6BC6781072C972E /* SSZipArchive.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		1E14E9ECD2CB4B836FBDB6F14C245BBB /* pwd2key.h in Headers */ = {isa = PBXBuildFile; fileRef = E1A99D74FA24F1D2E3EBFCDC4DD76227 /* pwd2key.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		26ED722F78DDB5002032E1D2F30523D0 /* hmac.c in Sources */ = {isa = PBXBuildFile; fileRef = 60BBEF23FBB237B664E0761C5E7644D6 /* hmac.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		28BAD9C8CE1B8698D181C23246C83B67 /* unzip.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E6DAFB7DAF279FF8562B36631D03A14 /* unzip.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2CEA5B181589D088E22844A06197007A /* ioapi.h in Headers */ = {isa = PBXBuildFile; fileRef = 587A57815B2CE474E765FCFDF8EC4787 /* ioapi.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2EF6F358D5DAC71866BE2CC4BD37956D /* ZZOldArchiveEntryWriter.mm in Sources */ = {isa = PBXBuildFile; fileRef = 69124ED3FEFAA68C46E31DED733592E9 /* ZZOldArchiveEntryWriter.mm */; };
+		33BCC90CCED314805325BF83BD7490A3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79C43EBA6705504C4AE1C53A721903E0 /* Foundation.framework */; };
+		33CEDF4A1DA0FADAED42CD619DFFD1C6 /* SSZipArchive-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DFFC9BCA63F62C78EC7D6F6643BA04B /* SSZipArchive-dummy.m */; };
+		362000AF536C60008C4F583CF96AA461 /* ZZDeflateOutputStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EF4714E053DA9C60A733C8B49885EC6 /* ZZDeflateOutputStream.m */; };
+		3857294900B4324B11F99E3AC9A16708 /* ZZChannel.h in Headers */ = {isa = PBXBuildFile; fileRef = E848C44939C58245992859C04A1F8ABE /* ZZChannel.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3E9BCCA1B8028647E261F9ADED06E53D /* entropy.c in Sources */ = {isa = PBXBuildFile; fileRef = DECDCA98BA660BB7718532FA91FEFA90 /* entropy.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		3F99B1583FD0C6844D4AEE8F4A009276 /* ZZStandardCryptoEngine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 334D154E0629A76D7AEAC64D757C3CE2 /* ZZStandardCryptoEngine.cpp */; };
+		42F0FF23B285525109E8DF095197EE39 /* ZZNewArchiveEntryWriter.h in Headers */ = {isa = PBXBuildFile; fileRef = AC7CC59759AF6DA61CA20FBD53D3269C /* ZZNewArchiveEntryWriter.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		464653446D54AF9BA17952818D1CE443 /* ZZFileChannelOutput.h in Headers */ = {isa = PBXBuildFile; fileRef = 1622343E5B4C4B07F80062EC07DC78FF /* ZZFileChannelOutput.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		497BEF07A1F83EA699CBA5B6B0F1DFF4 /* ZZStandardCryptoEngine.h in Headers */ = {isa = PBXBuildFile; fileRef = 5869DFA3D39017770B61CCD14F56D697 /* ZZStandardCryptoEngine.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		50C0D7DCBC50FB5EBB453E909F3245F4 /* ZZAESDecryptInputStream.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A791ABAE4125FC73BE4594B0FD1C901 /* ZZAESDecryptInputStream.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		50FFC90F0DBE8B27393184DD7C64B741 /* ZZScopeGuard.h in Headers */ = {isa = PBXBuildFile; fileRef = A3FA5B5F8B78F515DD38270A3F51DADC /* ZZScopeGuard.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		51A6B25DFA8EDDE22D1A75B67C95945C /* ZZStoreOutputStream.h in Headers */ = {isa = PBXBuildFile; fileRef = 067616256086C1454ABA1FE85FF7C322 /* ZZStoreOutputStream.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		54B5DB05E44CC306F345B5C01CB65264 /* prng.h in Headers */ = {isa = PBXBuildFile; fileRef = 8605CCB4A04C408697C94A5AD9E5036E /* prng.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5603E55C59EE5A628498F7813A46C268 /* ZZArchiveEntry.h in Headers */ = {isa = PBXBuildFile; fileRef = B37A0F7ECCFD03C32863B898704A4987 /* ZZArchiveEntry.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		57561CE99BBF44DB1FC00F4EAA6CB7BC /* unzip.c in Sources */ = {isa = PBXBuildFile; fileRef = FDA2F89351869B5A46653147201FF3A9 /* unzip.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		581A4C8CE9F9026691B4D04CD3A787B1 /* aescrypt.c in Sources */ = {isa = PBXBuildFile; fileRef = D670F4B112F31D7DEDE0498F0180DDE4 /* aescrypt.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		5A948D1465CE8EBE379C92776352ACD9 /* prng.c in Sources */ = {isa = PBXBuildFile; fileRef = 8CA85340E76612C329A30E55E5BFB431 /* prng.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		5D97B6094C0E89F9A98FCFCB3503ECD9 /* hmac.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CEED15E0964AE1F4EEB764504331A57 /* hmac.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5E180E045A5C65E32E03D6E0042EBD29 /* aeskey.c in Sources */ = {isa = PBXBuildFile; fileRef = 90A0DEA8D0F4C9FC0189C49162077D77 /* aeskey.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		6315797654C7EE21F22054FAD2162FE7 /* mztools.h in Headers */ = {isa = PBXBuildFile; fileRef = A3361D9135E01A02FFE2F33F5E329B9B /* mztools.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		63B01F9930BE55EAD6D857A0A96DCAEC /* ZZArchiveEntryWriter.h in Headers */ = {isa = PBXBuildFile; fileRef = C8105C533DB42E45B10AA37A2595D362 /* ZZArchiveEntryWriter.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		675E8C5A94C8612159D91ADD814E47AC /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91CACB34AFCF3051FFCC69471F484ED3 /* ImageIO.framework */; };
+		6BC754C6E450FEFCC96CEF150DC8F3A1 /* brg_endian.h in Headers */ = {isa = PBXBuildFile; fileRef = BA2AA7D36C393C9B7D618D1B1800DDBC /* brg_endian.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6F61B657C9050404C28CDB323D662783 /* aes_via_ace.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C05A3237FF6CEF333D590E4F1795629 /* aes_via_ace.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		719A87D52A249D70922363FFC83FE142 /* ZZOldArchiveEntry.mm in Sources */ = {isa = PBXBuildFile; fileRef = 9247BA924357D646C57D8FC325AAB648 /* ZZOldArchiveEntry.mm */; };
+		72AB83954580AF55FDF157A473DC28E2 /* sha1.h in Headers */ = {isa = PBXBuildFile; fileRef = C9DE899DCCAE0A4ABDCB48039D575216 /* sha1.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		77BE849DE85343F42115EF8D5CC46899 /* SSZipCommon.h in Headers */ = {isa = PBXBuildFile; fileRef = 0FF3C0A78D71C1CDE2CA8A404702C274 /* SSZipCommon.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7AB9A24A615B32BFB7626C72E5F70CFF /* ZipArchive.h in Headers */ = {isa = PBXBuildFile; fileRef = 6CE54B1F964A5AE9570744B234CA5E9F /* ZipArchive.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7CCE89FF97B6D92CBA879A01844B68FD /* crypt.h in Headers */ = {isa = PBXBuildFile; fileRef = 6AB5EF28A05FE658C14709FE572304B8 /* crypt.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7E0C8538A508000DF523F7849D9D4579 /* ZZArchiveEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = D2936ED15DBCF52ADA4130621E05CCB1 /* ZZArchiveEntry.m */; };
+		83C237C6537073843B3B3D1A5D186B0E /* ZZChannelOutput.h in Headers */ = {isa = PBXBuildFile; fileRef = D916930D84AA9F37575F7D7E66B89E3B /* ZZChannelOutput.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		83DA666E04F81733580E7942D2B1C344 /* NSData+Godzippa.m in Sources */ = {isa = PBXBuildFile; fileRef = 50FBA3AFF68CEF6CC0F6011CC7FD1D94 /* NSData+Godzippa.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		84CC165FDCF96EAD2328F72CB06B8683 /* Pods-XZDataCompressDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ECF1C44C33D9EE71C1AEE728B831DBF /* Pods-XZDataCompressDemo-dummy.m */; };
+		8ACC3AB9D1BBECEDAEDD530D79D8E53C /* ZZOldArchiveEntryWriter.h in Headers */ = {isa = PBXBuildFile; fileRef = 55EE67F2EFDCC48005D5EBBD9E7B8FD2 /* ZZOldArchiveEntryWriter.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8D78A08A5AED679703C05AA53724ED55 /* entropy.h in Headers */ = {isa = PBXBuildFile; fileRef = 996664E5A789E2B67811543C54C60934 /* entropy.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8E10C0FD28879CEEA69EAB994957B9E4 /* aestab.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D09C49C02B36B799A1F688CC265ECC9 /* aestab.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8F648E7DE005A208124A6D80CE4FFC8A /* Godzippa.h in Headers */ = {isa = PBXBuildFile; fileRef = 62A4319FF40A5565B8353AD13CBA550B /* Godzippa.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		90925975A5FBFAD4228B1930389CB974 /* ZZNewArchiveEntry.h in Headers */ = {isa = PBXBuildFile; fileRef = AC5224CC212F9EB0A040D6D75F678DC7 /* ZZNewArchiveEntry.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9BD8100C3B812A25807CB943B62F6540 /* ZZHeaders.h in Headers */ = {isa = PBXBuildFile; fileRef = A2136B74143652C627B3FFF3834A8842 /* ZZHeaders.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9EFEF12750CA8E0574A4364E5F0D05AD /* ZZStandardDecryptInputStream.h in Headers */ = {isa = PBXBuildFile; fileRef = 1763EBC31CE02C0565C8E7421ED023F7 /* ZZStandardDecryptInputStream.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9F837BA6A14AE5F366672E63C8BD07F5 /* ZipZap.h in Headers */ = {isa = PBXBuildFile; fileRef = E256FF56C25744C5DA0FA251B3B92801 /* ZipZap.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A0B56236329565459ABE56E34CD2923F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79C43EBA6705504C4AE1C53A721903E0 /* Foundation.framework */; };
+		A2C92A9897940E5385278B74DBB37E66 /* ZZDataChannelOutput.m in Sources */ = {isa = PBXBuildFile; fileRef = E2A7B457405B22C301C3CA3C7997CA88 /* ZZDataChannelOutput.m */; };
+		A6CE18BCE73F5D59386ABD97160D03F2 /* pwd2key.c in Sources */ = {isa = PBXBuildFile; fileRef = D6A9CF89904AC3324D5DFC15F5280531 /* pwd2key.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		A723FEAC747C941C5B3CF6DA48E9231B /* ZZInflateInputStream.h in Headers */ = {isa = PBXBuildFile; fileRef = E15DB0AB9F498049503F1A1E3D2F9D3A /* ZZInflateInputStream.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A8FB3327F531D32A7E259518A352CEA9 /* aestab.c in Sources */ = {isa = PBXBuildFile; fileRef = 6B5BF01128E6415DC5B93183E0884CE1 /* aestab.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		AA2A1BBBB7CE46718D48F983F6C06D10 /* ZZDataChannel.h in Headers */ = {isa = PBXBuildFile; fileRef = 6795C48B56DE6D63B0F84F0AE1D3C5E3 /* ZZDataChannel.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B6A1D8D80288EBFAB46672544B60738E /* ZZInflateInputStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 42975A799F13559257DC5761DD958EDB /* ZZInflateInputStream.m */; };
+		B821B783437583AF614B104E8C04C917 /* ZZAESDecryptInputStream.mm in Sources */ = {isa = PBXBuildFile; fileRef = 81903CD7AF415D25EC91B1F765E5AED1 /* ZZAESDecryptInputStream.mm */; };
+		C59D3F325CF18596791D835F51AC86EA /* fileenc.c in Sources */ = {isa = PBXBuildFile; fileRef = 586C3F5FFBEA4B182A8C7DF3F51C20E9 /* fileenc.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		C7880E8EB4F3029E531A01CD4DFA535C /* ZZFileChannel.h in Headers */ = {isa = PBXBuildFile; fileRef = 3969F879D62BC8232CCE1CE1B08AEEA9 /* ZZFileChannel.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CDD7B0CBB042B95FBC4A0831D9EA2D3B /* ZZDataProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = 6816563B6C130EC9F3F70E177B7111A2 /* ZZDataProvider.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D13E094CAC9770542AB31D9E7866BB94 /* ZZOldArchiveEntry.h in Headers */ = {isa = PBXBuildFile; fileRef = 98760913FA43A1E64CE78701663098CA /* ZZOldArchiveEntry.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		DA211D9EF7B356493624433D4D72E098 /* ZZDataChannel.m in Sources */ = {isa = PBXBuildFile; fileRef = 64DF85810E98EB317EA9DCEB436D3DA9 /* ZZDataChannel.m */; };
+		DDA8A1CD2D6E96FB000346E4F39DC907 /* zip.h in Headers */ = {isa = PBXBuildFile; fileRef = 68D178BCCBE2AB9A218D9E8E4C791273 /* zip.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		DE1BB3C0D392F9C0A560B4FA3CEBF903 /* aesopt.h in Headers */ = {isa = PBXBuildFile; fileRef = 51D07585357F92A0EDECEBD94C5A63A3 /* aesopt.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E0F0BE68122A47587EB80A707882C7CE /* ZZError.h in Headers */ = {isa = PBXBuildFile; fileRef = E89D328FDE5CD5C73701CFB7D2466085 /* ZZError.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E273CBFB7037A84C600ADA491F9CC79A /* Godzippa-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E836F037DF56288BC7EDAB93409ED829 /* Godzippa-dummy.m */; };
+		EAB4D94000ADE3F8DE0A44926F4E69A3 /* ZZError.m in Sources */ = {isa = PBXBuildFile; fileRef = 0407025AAD9FB8E47C6EEFC48A2873B2 /* ZZError.m */; };
+		ECC145C7FD2C16922C6848B8BF0BCD1A /* ZZNewArchiveEntryWriter.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1E2BAC43608C024A0AEEA9C01D7D974B /* ZZNewArchiveEntryWriter.mm */; };
+		EDEF64F8B43EF3615F9FF5E89E45BE84 /* ZZNewArchiveEntry.mm in Sources */ = {isa = PBXBuildFile; fileRef = 30DE6971332D88BBFD015EA035520E7E /* ZZNewArchiveEntry.mm */; };
+		F19900C74EAAA50E4F0B69DFBAA09DD6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79C43EBA6705504C4AE1C53A721903E0 /* Foundation.framework */; };
+		F221C7D0D6B4483DFCB6D699C2E3924D /* ZZArchive.mm in Sources */ = {isa = PBXBuildFile; fileRef = B0C374F8BF737A5F24DF1C465E8E5150 /* ZZArchive.mm */; };
+		F389362533B4EB797FD06395A38FA8FE /* ZZConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 235C1AA7189F135A70FBEFE8EF405853 /* ZZConstants.m */; };
+		F7BC416ADA60130BF877301B76677F3B /* ZZConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 12696A69A4837D3D261BBE2CE3AA21CC /* ZZConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F7EF9CFB6F83106D28A22C644CD138EF /* SSZipArchive.h in Headers */ = {isa = PBXBuildFile; fileRef = 44E013870094EDE7602420F3C9B30BF3 /* SSZipArchive.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F9A21E7E21A13AE683D0F6D1C85F886E /* ZZFileChannelOutput.m in Sources */ = {isa = PBXBuildFile; fileRef = E6F3ECC43478B0087EABC2187793AA23 /* ZZFileChannelOutput.m */; };
+		FCCDF880323E5CC03FCAABCBF8C1F317 /* ZZStoreOutputStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 41B868BA616C64D5A832EA3C786B00DC /* ZZStoreOutputStream.m */; };
+		FDE29339CB9D4994B05410C6F3D2C1EB /* sha1.c in Sources */ = {isa = PBXBuildFile; fileRef = 10871205F32A8D5EF8F268A3F0D90CAA /* sha1.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		BB98D479FA353FC176D9710D91CCAD6B /* PBXContainerItemProxy */ = {
+		2A41EE8D8E99CA5595CC349B57940852 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B5B4080D25933E66447A52C31AA3FD9F;
+			remoteInfo = zipzap;
+		};
+		3E8990CCE180D4A3F9EFEEC7D8A918E7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 07D7C43B2A2266BE473C42BC7279AFC5;
 			remoteInfo = Godzippa;
 		};
-		BCA4511C87BB4BC254EDF2961F4CDCAE /* PBXContainerItemProxy */ = {
+		759CAB9632A4E3F557E5AF026B31D15C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 33358BF2212CC1F9755A51F6C56F444D;
+			remoteGlobalIDString = 2B498F36939F7B88685027DDE7C20143;
 			remoteInfo = SSZipArchive;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		03A4C59133FBF5431E58A120FCE1192E /* aescrypt.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = aescrypt.c; path = SSZipArchive/aes/aescrypt.c; sourceTree = "<group>"; };
-		03A6A1EA8F29350CEC3DB5254286E9A3 /* SSZipArchive.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SSZipArchive.xcconfig; sourceTree = "<group>"; };
-		0B5E48EC3475A90DED563D9AE8D2DD09 /* entropy.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = entropy.c; path = SSZipArchive/aes/entropy.c; sourceTree = "<group>"; };
-		12949ECD4B61B3D4E38C584A036E5915 /* hmac.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = hmac.h; path = SSZipArchive/aes/hmac.h; sourceTree = "<group>"; };
-		142741C7F1A69AD775DC20AEADD0A127 /* NSFileManager+Godzippa.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSFileManager+Godzippa.m"; path = "Godzippa/NSFileManager+Godzippa.m"; sourceTree = "<group>"; };
-		1832A4C9EF774B36FF0CA238BA9CE297 /* SSZipArchive-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SSZipArchive-prefix.pch"; sourceTree = "<group>"; };
-		1B2C3A4137382A3056780D9226C9F3F3 /* aeskey.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = aeskey.c; path = SSZipArchive/aes/aeskey.c; sourceTree = "<group>"; };
-		1B57EF7648CFB1C5C8E139C77E836F51 /* Godzippa.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Godzippa.h; path = Godzippa/Godzippa.h; sourceTree = "<group>"; };
-		23FA66D62D715676F07D473EBD37C039 /* Godzippa-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Godzippa-prefix.pch"; sourceTree = "<group>"; };
-		2D5F42C13E4A05B3221F775936827335 /* ioapi.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = ioapi.c; path = SSZipArchive/minizip/ioapi.c; sourceTree = "<group>"; };
-		385B4A62398B81FCF18AD1C56D3F8337 /* libGodzippa.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libGodzippa.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		3A073B09517BF3480395B03C96557436 /* fileenc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = fileenc.h; path = SSZipArchive/aes/fileenc.h; sourceTree = "<group>"; };
-		3E8A9405F0ADC411AF223204B4B66582 /* Godzippa-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Godzippa-dummy.m"; sourceTree = "<group>"; };
-		3E8F7EBE59B75D3A86E80CB8187E22F2 /* unzip.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = unzip.h; path = SSZipArchive/minizip/unzip.h; sourceTree = "<group>"; };
+		0407025AAD9FB8E47C6EEFC48A2873B2 /* ZZError.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZZError.m; path = ZipZap/ZZError.m; sourceTree = "<group>"; };
+		067616256086C1454ABA1FE85FF7C322 /* ZZStoreOutputStream.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZZStoreOutputStream.h; path = ZipZap/ZZStoreOutputStream.h; sourceTree = "<group>"; };
+		0EA274678FA4BE793EF0ECF8AB9639F1 /* brg_types.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = brg_types.h; path = SSZipArchive/aes/brg_types.h; sourceTree = "<group>"; };
+		0FF3C0A78D71C1CDE2CA8A404702C274 /* SSZipCommon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SSZipCommon.h; path = SSZipArchive/SSZipCommon.h; sourceTree = "<group>"; };
+		10871205F32A8D5EF8F268A3F0D90CAA /* sha1.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = sha1.c; path = SSZipArchive/aes/sha1.c; sourceTree = "<group>"; };
+		1104A9D05804272B07C68FFE0E279154 /* NSFileManager+Godzippa.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSFileManager+Godzippa.h"; path = "Godzippa/NSFileManager+Godzippa.h"; sourceTree = "<group>"; };
+		12696A69A4837D3D261BBE2CE3AA21CC /* ZZConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZZConstants.h; path = ZipZap/ZZConstants.h; sourceTree = "<group>"; };
+		1622343E5B4C4B07F80062EC07DC78FF /* ZZFileChannelOutput.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZZFileChannelOutput.h; path = ZipZap/ZZFileChannelOutput.h; sourceTree = "<group>"; };
+		163C6F432F4DE703EE730670B7A4FAA1 /* NSFileManager+Godzippa.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSFileManager+Godzippa.m"; path = "Godzippa/NSFileManager+Godzippa.m"; sourceTree = "<group>"; };
+		1763EBC31CE02C0565C8E7421ED023F7 /* ZZStandardDecryptInputStream.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZZStandardDecryptInputStream.h; path = ZipZap/ZZStandardDecryptInputStream.h; sourceTree = "<group>"; };
+		1A791ABAE4125FC73BE4594B0FD1C901 /* ZZAESDecryptInputStream.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZZAESDecryptInputStream.h; path = ZipZap/ZZAESDecryptInputStream.h; sourceTree = "<group>"; };
+		1E2BAC43608C024A0AEEA9C01D7D974B /* ZZNewArchiveEntryWriter.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = ZZNewArchiveEntryWriter.mm; path = ZipZap/ZZNewArchiveEntryWriter.mm; sourceTree = "<group>"; };
+		210E691287C8EA16842AB5F08BAB54D4 /* fileenc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = fileenc.h; path = SSZipArchive/aes/fileenc.h; sourceTree = "<group>"; };
+		235C1AA7189F135A70FBEFE8EF405853 /* ZZConstants.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZZConstants.m; path = ZipZap/ZZConstants.m; sourceTree = "<group>"; };
+		28B189C0EABA905F993DFBC4B54EF36B /* Godzippa.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Godzippa.xcconfig; sourceTree = "<group>"; };
+		29345B74B52BD4FC693EAC64572EC116 /* zipzap-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "zipzap-dummy.m"; sourceTree = "<group>"; };
+		2C05A3237FF6CEF333D590E4F1795629 /* aes_via_ace.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = aes_via_ace.h; path = SSZipArchive/aes/aes_via_ace.h; sourceTree = "<group>"; };
+		30DE6971332D88BBFD015EA035520E7E /* ZZNewArchiveEntry.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = ZZNewArchiveEntry.mm; path = ZipZap/ZZNewArchiveEntry.mm; sourceTree = "<group>"; };
+		334D154E0629A76D7AEAC64D757C3CE2 /* ZZStandardCryptoEngine.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = ZZStandardCryptoEngine.cpp; path = ZipZap/ZZStandardCryptoEngine.cpp; sourceTree = "<group>"; };
+		3969F879D62BC8232CCE1CE1B08AEEA9 /* ZZFileChannel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZZFileChannel.h; path = ZipZap/ZZFileChannel.h; sourceTree = "<group>"; };
+		3D4C7D79DE28ACC44626241FF083DE55 /* zipzap.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = zipzap.xcconfig; sourceTree = "<group>"; };
 		3ECF1C44C33D9EE71C1AEE728B831DBF /* Pods-XZDataCompressDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XZDataCompressDemo-dummy.m"; sourceTree = "<group>"; };
-		3F3617EBA23ED815730634BAEEA6EA64 /* unzip.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = unzip.c; path = SSZipArchive/minizip/unzip.c; sourceTree = "<group>"; };
-		43C0EDC53D426307EF410D45B244CA14 /* brg_endian.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = brg_endian.h; path = SSZipArchive/aes/brg_endian.h; sourceTree = "<group>"; };
-		446653A8DEE021754DECC876F4B32327 /* prng.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = prng.h; path = SSZipArchive/aes/prng.h; sourceTree = "<group>"; };
+		3F87422B0F7859DB3754A946D305C642 /* libSSZipArchive.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSSZipArchive.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		4131F304F6DC9A89886F8DD9E21A2E74 /* NSData+Godzippa.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSData+Godzippa.h"; path = "Godzippa/NSData+Godzippa.h"; sourceTree = "<group>"; };
+		41B868BA616C64D5A832EA3C786B00DC /* ZZStoreOutputStream.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZZStoreOutputStream.m; path = ZipZap/ZZStoreOutputStream.m; sourceTree = "<group>"; };
+		42975A799F13559257DC5761DD958EDB /* ZZInflateInputStream.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZZInflateInputStream.m; path = ZipZap/ZZInflateInputStream.m; sourceTree = "<group>"; };
+		44E013870094EDE7602420F3C9B30BF3 /* SSZipArchive.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SSZipArchive.h; path = SSZipArchive/SSZipArchive.h; sourceTree = "<group>"; };
+		4B32DE6EADFF33EFE316745B53E93D42 /* zip.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = zip.c; path = SSZipArchive/minizip/zip.c; sourceTree = "<group>"; };
 		4C47829B218D02299C6ECCCFAD7E5C02 /* Pods-XZDataCompressDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XZDataCompressDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
-		59EE402B2A597EEB253818A65FD02DBD /* mztools.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = mztools.c; path = SSZipArchive/minizip/mztools.c; sourceTree = "<group>"; };
-		5A8F77C086844F7D123F2D96D2931D25 /* prng.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = prng.c; path = SSZipArchive/aes/prng.c; sourceTree = "<group>"; };
-		5C15C2965B5FCDDBFCB12DC04FBA245B /* ioapi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ioapi.h; path = SSZipArchive/minizip/ioapi.h; sourceTree = "<group>"; };
-		5C19A70952325A52184476BF76565FAA /* pwd2key.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = pwd2key.c; path = SSZipArchive/aes/pwd2key.c; sourceTree = "<group>"; };
-		601FEEEE65F494D6FE48BF233A21D13D /* NSData+Godzippa.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSData+Godzippa.h"; path = "Godzippa/NSData+Godzippa.h"; sourceTree = "<group>"; };
-		627F2DE7127F272F3D6E4313CC58DC78 /* zip.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = zip.h; path = SSZipArchive/minizip/zip.h; sourceTree = "<group>"; };
-		6E0F71C5FB087A4B4DDDA1305A37247C /* libPods-XZDataCompressDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-XZDataCompressDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		6E2D1277FBFBFA95D156BA0681DAC9C5 /* crypt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = crypt.h; path = SSZipArchive/minizip/crypt.h; sourceTree = "<group>"; };
-		73D3F4C05F58CEAA1D3C3D0BE7EDFB74 /* pwd2key.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = pwd2key.h; path = SSZipArchive/aes/pwd2key.h; sourceTree = "<group>"; };
-		8109B5CBAA2AECBB94BCC47F5A19C773 /* aes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = aes.h; path = SSZipArchive/aes/aes.h; sourceTree = "<group>"; };
-		81FAC1DD7E4359D3A7D97D949FC3FBE0 /* SSZipArchive.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SSZipArchive.m; path = SSZipArchive/SSZipArchive.m; sourceTree = "<group>"; };
-		837D258BB56917A164ECBE775A3F070B /* entropy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = entropy.h; path = SSZipArchive/aes/entropy.h; sourceTree = "<group>"; };
-		83A0AA602A288848482670FC38DDC58E /* zip.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = zip.c; path = SSZipArchive/minizip/zip.c; sourceTree = "<group>"; };
+		4DFFC9BCA63F62C78EC7D6F6643BA04B /* SSZipArchive-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SSZipArchive-dummy.m"; sourceTree = "<group>"; };
+		50FBA3AFF68CEF6CC0F6011CC7FD1D94 /* NSData+Godzippa.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSData+Godzippa.m"; path = "Godzippa/NSData+Godzippa.m"; sourceTree = "<group>"; };
+		51D07585357F92A0EDECEBD94C5A63A3 /* aesopt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = aesopt.h; path = SSZipArchive/aes/aesopt.h; sourceTree = "<group>"; };
+		55EE67F2EFDCC48005D5EBBD9E7B8FD2 /* ZZOldArchiveEntryWriter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZZOldArchiveEntryWriter.h; path = ZipZap/ZZOldArchiveEntryWriter.h; sourceTree = "<group>"; };
+		5869DFA3D39017770B61CCD14F56D697 /* ZZStandardCryptoEngine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZZStandardCryptoEngine.h; path = ZipZap/ZZStandardCryptoEngine.h; sourceTree = "<group>"; };
+		586C3F5FFBEA4B182A8C7DF3F51C20E9 /* fileenc.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = fileenc.c; path = SSZipArchive/aes/fileenc.c; sourceTree = "<group>"; };
+		587A57815B2CE474E765FCFDF8EC4787 /* ioapi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ioapi.h; path = SSZipArchive/minizip/ioapi.h; sourceTree = "<group>"; };
+		5EF4714E053DA9C60A733C8B49885EC6 /* ZZDeflateOutputStream.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZZDeflateOutputStream.m; path = ZipZap/ZZDeflateOutputStream.m; sourceTree = "<group>"; };
+		60BBEF23FBB237B664E0761C5E7644D6 /* hmac.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = hmac.c; path = SSZipArchive/aes/hmac.c; sourceTree = "<group>"; };
+		62A4319FF40A5565B8353AD13CBA550B /* Godzippa.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Godzippa.h; path = Godzippa/Godzippa.h; sourceTree = "<group>"; };
+		64DF85810E98EB317EA9DCEB436D3DA9 /* ZZDataChannel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZZDataChannel.m; path = ZipZap/ZZDataChannel.m; sourceTree = "<group>"; };
+		6795C48B56DE6D63B0F84F0AE1D3C5E3 /* ZZDataChannel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZZDataChannel.h; path = ZipZap/ZZDataChannel.h; sourceTree = "<group>"; };
+		6816563B6C130EC9F3F70E177B7111A2 /* ZZDataProvider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZZDataProvider.h; path = ZipZap/ZZDataProvider.h; sourceTree = "<group>"; };
+		68D178BCCBE2AB9A218D9E8E4C791273 /* zip.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = zip.h; path = SSZipArchive/minizip/zip.h; sourceTree = "<group>"; };
+		69124ED3FEFAA68C46E31DED733592E9 /* ZZOldArchiveEntryWriter.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = ZZOldArchiveEntryWriter.mm; path = ZipZap/ZZOldArchiveEntryWriter.mm; sourceTree = "<group>"; };
+		6AB5EF28A05FE658C14709FE572304B8 /* crypt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = crypt.h; path = SSZipArchive/minizip/crypt.h; sourceTree = "<group>"; };
+		6B5BF01128E6415DC5B93183E0884CE1 /* aestab.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = aestab.c; path = SSZipArchive/aes/aestab.c; sourceTree = "<group>"; };
+		6CE54B1F964A5AE9570744B234CA5E9F /* ZipArchive.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZipArchive.h; path = SSZipArchive/ZipArchive.h; sourceTree = "<group>"; };
+		6DEA356D06ABB7209F72F49A5A619789 /* aes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = aes.h; path = SSZipArchive/aes/aes.h; sourceTree = "<group>"; };
+		6E6DAFB7DAF279FF8562B36631D03A14 /* unzip.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = unzip.h; path = SSZipArchive/minizip/unzip.h; sourceTree = "<group>"; };
+		706372D7B5E330634D5DA84BA7E2F1C8 /* zipzap-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "zipzap-prefix.pch"; sourceTree = "<group>"; };
+		759D32C2BFE5ABEC49A70557FDFDE796 /* ZZArchive.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZZArchive.h; path = ZipZap/ZZArchive.h; sourceTree = "<group>"; };
+		79C43EBA6705504C4AE1C53A721903E0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		79D041EA9953FF9C18AEE261F824AFAD /* libPods-XZDataCompressDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-XZDataCompressDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D09C49C02B36B799A1F688CC265ECC9 /* aestab.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = aestab.h; path = SSZipArchive/aes/aestab.h; sourceTree = "<group>"; };
+		81903CD7AF415D25EC91B1F765E5AED1 /* ZZAESDecryptInputStream.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = ZZAESDecryptInputStream.mm; path = ZipZap/ZZAESDecryptInputStream.mm; sourceTree = "<group>"; };
+		8605CCB4A04C408697C94A5AD9E5036E /* prng.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = prng.h; path = SSZipArchive/aes/prng.h; sourceTree = "<group>"; };
+		8CA85340E76612C329A30E55E5BFB431 /* prng.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = prng.c; path = SSZipArchive/aes/prng.c; sourceTree = "<group>"; };
+		8CEED15E0964AE1F4EEB764504331A57 /* hmac.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = hmac.h; path = SSZipArchive/aes/hmac.h; sourceTree = "<group>"; };
+		90A0DEA8D0F4C9FC0189C49162077D77 /* aeskey.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = aeskey.c; path = SSZipArchive/aes/aeskey.c; sourceTree = "<group>"; };
+		91CACB34AFCF3051FFCC69471F484ED3 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/ImageIO.framework; sourceTree = DEVELOPER_DIR; };
+		9247BA924357D646C57D8FC325AAB648 /* ZZOldArchiveEntry.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = ZZOldArchiveEntry.mm; path = ZipZap/ZZOldArchiveEntry.mm; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		969AF927ACC3FAB9DA06EAE4EF35506E /* ZipArchive.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZipArchive.h; path = SSZipArchive/ZipArchive.h; sourceTree = "<group>"; };
-		99B78B7DF2CBB790EB0CC3659A234801 /* fileenc.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = fileenc.c; path = SSZipArchive/aes/fileenc.c; sourceTree = "<group>"; };
+		98760913FA43A1E64CE78701663098CA /* ZZOldArchiveEntry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZZOldArchiveEntry.h; path = ZipZap/ZZOldArchiveEntry.h; sourceTree = "<group>"; };
+		996664E5A789E2B67811543C54C60934 /* entropy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = entropy.h; path = SSZipArchive/aes/entropy.h; sourceTree = "<group>"; };
 		9FB091C2AB6D986F590B89EBAB1DA0A9 /* Pods-XZDataCompressDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XZDataCompressDemo-acknowledgements.plist"; sourceTree = "<group>"; };
-		A9E8FD7AA849C2A078693D06C85CE0BC /* SSZipArchive.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SSZipArchive.h; path = SSZipArchive/SSZipArchive.h; sourceTree = "<group>"; };
-		AB5D9D61D66DE4CAE8C30CA2BFF0286A /* aesopt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = aesopt.h; path = SSZipArchive/aes/aesopt.h; sourceTree = "<group>"; };
-		B47AFDD40317AC40A06BDB3A114EF42B /* sha1.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = sha1.h; path = SSZipArchive/aes/sha1.h; sourceTree = "<group>"; };
-		B824AE3BF992FB97B7D2641CE54AE33C /* libSSZipArchive.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSSZipArchive.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		BC6E03BB728AB03E9D815C0E45E84451 /* aestab.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = aestab.h; path = SSZipArchive/aes/aestab.h; sourceTree = "<group>"; };
-		C0680737BDB448394F1DBF06F45E219B /* Godzippa.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Godzippa.xcconfig; sourceTree = "<group>"; };
+		A0F7162EDFD718B8F905FCF57A2CD5E5 /* mztools.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = mztools.c; path = SSZipArchive/minizip/mztools.c; sourceTree = "<group>"; };
+		A2136B74143652C627B3FFF3834A8842 /* ZZHeaders.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZZHeaders.h; path = ZipZap/ZZHeaders.h; sourceTree = "<group>"; };
+		A3361D9135E01A02FFE2F33F5E329B9B /* mztools.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mztools.h; path = SSZipArchive/minizip/mztools.h; sourceTree = "<group>"; };
+		A3FA5B5F8B78F515DD38270A3F51DADC /* ZZScopeGuard.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZZScopeGuard.h; path = ZipZap/ZZScopeGuard.h; sourceTree = "<group>"; };
+		AC5224CC212F9EB0A040D6D75F678DC7 /* ZZNewArchiveEntry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZZNewArchiveEntry.h; path = ZipZap/ZZNewArchiveEntry.h; sourceTree = "<group>"; };
+		AC7CC59759AF6DA61CA20FBD53D3269C /* ZZNewArchiveEntryWriter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZZNewArchiveEntryWriter.h; path = ZipZap/ZZNewArchiveEntryWriter.h; sourceTree = "<group>"; };
+		B0C374F8BF737A5F24DF1C465E8E5150 /* ZZArchive.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = ZZArchive.mm; path = ZipZap/ZZArchive.mm; sourceTree = "<group>"; };
+		B37A0F7ECCFD03C32863B898704A4987 /* ZZArchiveEntry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZZArchiveEntry.h; path = ZipZap/ZZArchiveEntry.h; sourceTree = "<group>"; };
+		BA2AA7D36C393C9B7D618D1B1800DDBC /* brg_endian.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = brg_endian.h; path = SSZipArchive/aes/brg_endian.h; sourceTree = "<group>"; };
+		BE54D83A4F278ED09B058C57F6DFA80C /* SSZipArchive-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SSZipArchive-prefix.pch"; sourceTree = "<group>"; };
+		BF2C9DDFB998DEA2E639BA0C85B7653E /* libGodzippa.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libGodzippa.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		C090DE3D76F2106B1A94B92F20D12FDC /* ZZDataChannelOutput.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZZDataChannelOutput.h; path = ZipZap/ZZDataChannelOutput.h; sourceTree = "<group>"; };
 		C19450633F09429875641C7E4CC793DF /* Pods-XZDataCompressDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XZDataCompressDemo.release.xcconfig"; sourceTree = "<group>"; };
-		C1E0946F31BFDF8CEF87664E005140D4 /* SSZipArchive-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SSZipArchive-dummy.m"; sourceTree = "<group>"; };
-		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		CF60E86550F0FBF0119598AE4C6345EC /* aestab.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = aestab.c; path = SSZipArchive/aes/aestab.c; sourceTree = "<group>"; };
-		D069B7725A9EF2C14B270B24DCD416C6 /* hmac.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = hmac.c; path = SSZipArchive/aes/hmac.c; sourceTree = "<group>"; };
-		D7DF73BC8E416071CFE0C857EF0BE50A /* brg_types.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = brg_types.h; path = SSZipArchive/aes/brg_types.h; sourceTree = "<group>"; };
-		D7F171D7B7FD31376C1049EB3A5DB482 /* aes_via_ace.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = aes_via_ace.h; path = SSZipArchive/aes/aes_via_ace.h; sourceTree = "<group>"; };
-		DA4EFE5E039C770E2133834F1C87640F /* SSZipCommon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SSZipCommon.h; path = SSZipArchive/SSZipCommon.h; sourceTree = "<group>"; };
+		C2589CA237695D7FBD985E6F360E704F /* ioapi.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = ioapi.c; path = SSZipArchive/minizip/ioapi.c; sourceTree = "<group>"; };
+		C8105C533DB42E45B10AA37A2595D362 /* ZZArchiveEntryWriter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZZArchiveEntryWriter.h; path = ZipZap/ZZArchiveEntryWriter.h; sourceTree = "<group>"; };
+		C9DE899DCCAE0A4ABDCB48039D575216 /* sha1.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = sha1.h; path = SSZipArchive/aes/sha1.h; sourceTree = "<group>"; };
+		D0B4F6A83DE6587F323394725E17E3A8 /* libzipzap.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libzipzap.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2936ED15DBCF52ADA4130621E05CCB1 /* ZZArchiveEntry.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZZArchiveEntry.m; path = ZipZap/ZZArchiveEntry.m; sourceTree = "<group>"; };
+		D5E1741AF7CD9775D44BC5113456FCEF /* ZZStandardDecryptInputStream.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = ZZStandardDecryptInputStream.mm; path = ZipZap/ZZStandardDecryptInputStream.mm; sourceTree = "<group>"; };
+		D670F4B112F31D7DEDE0498F0180DDE4 /* aescrypt.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = aescrypt.c; path = SSZipArchive/aes/aescrypt.c; sourceTree = "<group>"; };
+		D6A9CF89904AC3324D5DFC15F5280531 /* pwd2key.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = pwd2key.c; path = SSZipArchive/aes/pwd2key.c; sourceTree = "<group>"; };
+		D916930D84AA9F37575F7D7E66B89E3B /* ZZChannelOutput.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZZChannelOutput.h; path = ZipZap/ZZChannelOutput.h; sourceTree = "<group>"; };
+		DB30EBBB26ABA5A4C6BC6781072C972E /* SSZipArchive.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SSZipArchive.m; path = SSZipArchive/SSZipArchive.m; sourceTree = "<group>"; };
+		DECDCA98BA660BB7718532FA91FEFA90 /* entropy.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = entropy.c; path = SSZipArchive/aes/entropy.c; sourceTree = "<group>"; };
+		E15DB0AB9F498049503F1A1E3D2F9D3A /* ZZInflateInputStream.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZZInflateInputStream.h; path = ZipZap/ZZInflateInputStream.h; sourceTree = "<group>"; };
+		E1A99D74FA24F1D2E3EBFCDC4DD76227 /* pwd2key.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = pwd2key.h; path = SSZipArchive/aes/pwd2key.h; sourceTree = "<group>"; };
+		E1E6FEE355741A390D36BF8631F4E89B /* SSZipArchive.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SSZipArchive.xcconfig; sourceTree = "<group>"; };
+		E256FF56C25744C5DA0FA251B3B92801 /* ZipZap.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZipZap.h; path = ZipZap/ZipZap.h; sourceTree = "<group>"; };
+		E2A7B457405B22C301C3CA3C7997CA88 /* ZZDataChannelOutput.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZZDataChannelOutput.m; path = ZipZap/ZZDataChannelOutput.m; sourceTree = "<group>"; };
+		E583C6737ACC3837E3BAE6D1801EFA68 /* Godzippa-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Godzippa-prefix.pch"; sourceTree = "<group>"; };
+		E6F3ECC43478B0087EABC2187793AA23 /* ZZFileChannelOutput.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZZFileChannelOutput.m; path = ZipZap/ZZFileChannelOutput.m; sourceTree = "<group>"; };
 		E78CB4E73D2692979E78AA5E43035522 /* Pods-XZDataCompressDemo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XZDataCompressDemo-resources.sh"; sourceTree = "<group>"; };
+		E836F037DF56288BC7EDAB93409ED829 /* Godzippa-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Godzippa-dummy.m"; sourceTree = "<group>"; };
+		E848C44939C58245992859C04A1F8ABE /* ZZChannel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZZChannel.h; path = ZipZap/ZZChannel.h; sourceTree = "<group>"; };
+		E89D328FDE5CD5C73701CFB7D2466085 /* ZZError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZZError.h; path = ZipZap/ZZError.h; sourceTree = "<group>"; };
 		EE1902F2CA99C673B4D4378CE9273DFF /* Pods-XZDataCompressDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XZDataCompressDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		EE563727FB8AE611302F65E478B68261 /* ZZDeflateOutputStream.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZZDeflateOutputStream.h; path = ZipZap/ZZDeflateOutputStream.h; sourceTree = "<group>"; };
 		F6B918A4D98CAFE558523A317C77BB49 /* Pods-XZDataCompressDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XZDataCompressDemo-frameworks.sh"; sourceTree = "<group>"; };
-		F9B734352245E18A1C6A1E65369316EC /* NSData+Godzippa.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSData+Godzippa.m"; path = "Godzippa/NSData+Godzippa.m"; sourceTree = "<group>"; };
-		FB1157A9AB17E704D5009B2120CBD2CB /* sha1.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = sha1.c; path = SSZipArchive/aes/sha1.c; sourceTree = "<group>"; };
-		FC9A91F320351561C1B6145DBDBD6A56 /* NSFileManager+Godzippa.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSFileManager+Godzippa.h"; path = "Godzippa/NSFileManager+Godzippa.h"; sourceTree = "<group>"; };
-		FDA56518D53A74811B44D2E7757E5FF5 /* mztools.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mztools.h; path = SSZipArchive/minizip/mztools.h; sourceTree = "<group>"; };
+		FB22A58A5CC250CAEAC68D850B959FFB /* ZZFileChannel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZZFileChannel.m; path = ZipZap/ZZFileChannel.m; sourceTree = "<group>"; };
+		FDA2F89351869B5A46653147201FF3A9 /* unzip.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = unzip.c; path = SSZipArchive/minizip/unzip.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		38049221EA940437B6D708D460E34F70 /* Frameworks */ = {
+		324CA039F7420A4666956E73B1C8507F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				82CE448F430AC1EBCCE994E4967DD89E /* Foundation.framework in Frameworks */,
+				144BF6199D243FB3C4163263FF07BEF7 /* Foundation.framework in Frameworks */,
+				675E8C5A94C8612159D91ADD814E47AC /* ImageIO.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		456E17BCAE59AA6AF6929E7CC9B188CB /* Frameworks */ = {
+		8A23783C6633313415C3B5E46F5BDA42 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6FFEBF1A3F6784D465D190AD4AFA5E7A /* Foundation.framework in Frameworks */,
+				F19900C74EAAA50E4F0B69DFBAA09DD6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BDB6CBD8F558A6EBB601EA417EC4FB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33BCC90CCED314805325BF83BD7490A3 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -159,23 +269,45 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		01E416DC2CFDB54EB91C06C078F34E3C /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				79C43EBA6705504C4AE1C53A721903E0 /* Foundation.framework */,
+				91CACB34AFCF3051FFCC69471F484ED3 /* ImageIO.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		0E2B7A811DE1601AEE6EB0D6D2AE983B /* Godzippa */ = {
+			isa = PBXGroup;
+			children = (
+				62A4319FF40A5565B8353AD13CBA550B /* Godzippa.h */,
+				4131F304F6DC9A89886F8DD9E21A2E74 /* NSData+Godzippa.h */,
+				50FBA3AFF68CEF6CC0F6011CC7FD1D94 /* NSData+Godzippa.m */,
+				1104A9D05804272B07C68FFE0E279154 /* NSFileManager+Godzippa.h */,
+				163C6F432F4DE703EE730670B7A4FAA1 /* NSFileManager+Godzippa.m */,
+				C6C94720C1D4F37D52F014BD82C6465B /* Support Files */,
+			);
+			path = Godzippa;
+			sourceTree = "<group>";
+		};
+		18F60988364633E9F2D96FFEB1EEF671 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BF2C9DDFB998DEA2E639BA0C85B7653E /* libGodzippa.a */,
+				79D041EA9953FF9C18AEE261F824AFAD /* libPods-XZDataCompressDemo.a */,
+				3F87422B0F7859DB3754A946D305C642 /* libSSZipArchive.a */,
+				D0B4F6A83DE6587F323394725E17E3A8 /* libzipzap.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		190170664B5C329479C59DD57EE09260 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
 				2CED2DD25B94A8051B993F97810BFC0E /* Pods-XZDataCompressDemo */,
 			);
 			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		20783E98DC8ADA23A5461C02F8BE734F /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				C0680737BDB448394F1DBF06F45E219B /* Godzippa.xcconfig */,
-				3E8A9405F0ADC411AF223204B4B66582 /* Godzippa-dummy.m */,
-				23FA66D62D715676F07D473EBD37C039 /* Godzippa-prefix.pch */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/Godzippa";
 			sourceTree = "<group>";
 		};
 		2CED2DD25B94A8051B993F97810BFC0E /* Pods-XZDataCompressDemo */ = {
@@ -193,121 +325,196 @@
 			path = "Target Support Files/Pods-XZDataCompressDemo";
 			sourceTree = "<group>";
 		};
-		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
+				01E416DC2CFDB54EB91C06C078F34E3C /* iOS */,
 			);
-			name = iOS;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		7719588DBE94607C50B34EC826EDB2E2 /* Support Files */ = {
+		6B3E139A1CE77DAFEB17BACF6F14E9A7 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				03A6A1EA8F29350CEC3DB5254286E9A3 /* SSZipArchive.xcconfig */,
-				C1E0946F31BFDF8CEF87664E005140D4 /* SSZipArchive-dummy.m */,
-				1832A4C9EF774B36FF0CA238BA9CE297 /* SSZipArchive-prefix.pch */,
+				0E2B7A811DE1601AEE6EB0D6D2AE983B /* Godzippa */,
+				D87E59C92C948BEA1A9158D105C83D3D /* SSZipArchive */,
+				982A6D7FEDDE869B2B6C1A348FA14464 /* zipzap */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		78FCED2C110F1AD15DD4504B2B548FE7 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3D4C7D79DE28ACC44626241FF083DE55 /* zipzap.xcconfig */,
+				29345B74B52BD4FC693EAC64572EC116 /* zipzap-dummy.m */,
+				706372D7B5E330634D5DA84BA7E2F1C8 /* zipzap-prefix.pch */,
 			);
 			name = "Support Files";
-			path = "../Target Support Files/SSZipArchive";
+			path = "../Target Support Files/zipzap";
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				F9B99DC43320A5533BA1E7C91733D2D3 /* Pods */,
-				F4A890097E9119991ACA045F0A4D015F /* Products */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				6B3E139A1CE77DAFEB17BACF6F14E9A7 /* Pods */,
+				18F60988364633E9F2D96FFEB1EEF671 /* Products */,
 				190170664B5C329479C59DD57EE09260 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		81311FEC308ED91F29F6AC2598BA80F9 /* SSZipArchive */ = {
+		982A6D7FEDDE869B2B6C1A348FA14464 /* zipzap */ = {
 			isa = PBXGroup;
 			children = (
-				8109B5CBAA2AECBB94BCC47F5A19C773 /* aes.h */,
-				D7F171D7B7FD31376C1049EB3A5DB482 /* aes_via_ace.h */,
-				03A4C59133FBF5431E58A120FCE1192E /* aescrypt.c */,
-				1B2C3A4137382A3056780D9226C9F3F3 /* aeskey.c */,
-				AB5D9D61D66DE4CAE8C30CA2BFF0286A /* aesopt.h */,
-				CF60E86550F0FBF0119598AE4C6345EC /* aestab.c */,
-				BC6E03BB728AB03E9D815C0E45E84451 /* aestab.h */,
-				43C0EDC53D426307EF410D45B244CA14 /* brg_endian.h */,
-				D7DF73BC8E416071CFE0C857EF0BE50A /* brg_types.h */,
-				6E2D1277FBFBFA95D156BA0681DAC9C5 /* crypt.h */,
-				0B5E48EC3475A90DED563D9AE8D2DD09 /* entropy.c */,
-				837D258BB56917A164ECBE775A3F070B /* entropy.h */,
-				99B78B7DF2CBB790EB0CC3659A234801 /* fileenc.c */,
-				3A073B09517BF3480395B03C96557436 /* fileenc.h */,
-				D069B7725A9EF2C14B270B24DCD416C6 /* hmac.c */,
-				12949ECD4B61B3D4E38C584A036E5915 /* hmac.h */,
-				2D5F42C13E4A05B3221F775936827335 /* ioapi.c */,
-				5C15C2965B5FCDDBFCB12DC04FBA245B /* ioapi.h */,
-				59EE402B2A597EEB253818A65FD02DBD /* mztools.c */,
-				FDA56518D53A74811B44D2E7757E5FF5 /* mztools.h */,
-				5A8F77C086844F7D123F2D96D2931D25 /* prng.c */,
-				446653A8DEE021754DECC876F4B32327 /* prng.h */,
-				5C19A70952325A52184476BF76565FAA /* pwd2key.c */,
-				73D3F4C05F58CEAA1D3C3D0BE7EDFB74 /* pwd2key.h */,
-				FB1157A9AB17E704D5009B2120CBD2CB /* sha1.c */,
-				B47AFDD40317AC40A06BDB3A114EF42B /* sha1.h */,
-				A9E8FD7AA849C2A078693D06C85CE0BC /* SSZipArchive.h */,
-				81FAC1DD7E4359D3A7D97D949FC3FBE0 /* SSZipArchive.m */,
-				DA4EFE5E039C770E2133834F1C87640F /* SSZipCommon.h */,
-				3F3617EBA23ED815730634BAEEA6EA64 /* unzip.c */,
-				3E8F7EBE59B75D3A86E80CB8187E22F2 /* unzip.h */,
-				83A0AA602A288848482670FC38DDC58E /* zip.c */,
-				627F2DE7127F272F3D6E4313CC58DC78 /* zip.h */,
-				969AF927ACC3FAB9DA06EAE4EF35506E /* ZipArchive.h */,
-				7719588DBE94607C50B34EC826EDB2E2 /* Support Files */,
+				E256FF56C25744C5DA0FA251B3B92801 /* ZipZap.h */,
+				1A791ABAE4125FC73BE4594B0FD1C901 /* ZZAESDecryptInputStream.h */,
+				81903CD7AF415D25EC91B1F765E5AED1 /* ZZAESDecryptInputStream.mm */,
+				759D32C2BFE5ABEC49A70557FDFDE796 /* ZZArchive.h */,
+				B0C374F8BF737A5F24DF1C465E8E5150 /* ZZArchive.mm */,
+				B37A0F7ECCFD03C32863B898704A4987 /* ZZArchiveEntry.h */,
+				D2936ED15DBCF52ADA4130621E05CCB1 /* ZZArchiveEntry.m */,
+				C8105C533DB42E45B10AA37A2595D362 /* ZZArchiveEntryWriter.h */,
+				E848C44939C58245992859C04A1F8ABE /* ZZChannel.h */,
+				D916930D84AA9F37575F7D7E66B89E3B /* ZZChannelOutput.h */,
+				12696A69A4837D3D261BBE2CE3AA21CC /* ZZConstants.h */,
+				235C1AA7189F135A70FBEFE8EF405853 /* ZZConstants.m */,
+				6795C48B56DE6D63B0F84F0AE1D3C5E3 /* ZZDataChannel.h */,
+				64DF85810E98EB317EA9DCEB436D3DA9 /* ZZDataChannel.m */,
+				C090DE3D76F2106B1A94B92F20D12FDC /* ZZDataChannelOutput.h */,
+				E2A7B457405B22C301C3CA3C7997CA88 /* ZZDataChannelOutput.m */,
+				6816563B6C130EC9F3F70E177B7111A2 /* ZZDataProvider.h */,
+				EE563727FB8AE611302F65E478B68261 /* ZZDeflateOutputStream.h */,
+				5EF4714E053DA9C60A733C8B49885EC6 /* ZZDeflateOutputStream.m */,
+				E89D328FDE5CD5C73701CFB7D2466085 /* ZZError.h */,
+				0407025AAD9FB8E47C6EEFC48A2873B2 /* ZZError.m */,
+				3969F879D62BC8232CCE1CE1B08AEEA9 /* ZZFileChannel.h */,
+				FB22A58A5CC250CAEAC68D850B959FFB /* ZZFileChannel.m */,
+				1622343E5B4C4B07F80062EC07DC78FF /* ZZFileChannelOutput.h */,
+				E6F3ECC43478B0087EABC2187793AA23 /* ZZFileChannelOutput.m */,
+				A2136B74143652C627B3FFF3834A8842 /* ZZHeaders.h */,
+				E15DB0AB9F498049503F1A1E3D2F9D3A /* ZZInflateInputStream.h */,
+				42975A799F13559257DC5761DD958EDB /* ZZInflateInputStream.m */,
+				AC5224CC212F9EB0A040D6D75F678DC7 /* ZZNewArchiveEntry.h */,
+				30DE6971332D88BBFD015EA035520E7E /* ZZNewArchiveEntry.mm */,
+				AC7CC59759AF6DA61CA20FBD53D3269C /* ZZNewArchiveEntryWriter.h */,
+				1E2BAC43608C024A0AEEA9C01D7D974B /* ZZNewArchiveEntryWriter.mm */,
+				98760913FA43A1E64CE78701663098CA /* ZZOldArchiveEntry.h */,
+				9247BA924357D646C57D8FC325AAB648 /* ZZOldArchiveEntry.mm */,
+				55EE67F2EFDCC48005D5EBBD9E7B8FD2 /* ZZOldArchiveEntryWriter.h */,
+				69124ED3FEFAA68C46E31DED733592E9 /* ZZOldArchiveEntryWriter.mm */,
+				A3FA5B5F8B78F515DD38270A3F51DADC /* ZZScopeGuard.h */,
+				334D154E0629A76D7AEAC64D757C3CE2 /* ZZStandardCryptoEngine.cpp */,
+				5869DFA3D39017770B61CCD14F56D697 /* ZZStandardCryptoEngine.h */,
+				1763EBC31CE02C0565C8E7421ED023F7 /* ZZStandardDecryptInputStream.h */,
+				D5E1741AF7CD9775D44BC5113456FCEF /* ZZStandardDecryptInputStream.mm */,
+				067616256086C1454ABA1FE85FF7C322 /* ZZStoreOutputStream.h */,
+				41B868BA616C64D5A832EA3C786B00DC /* ZZStoreOutputStream.m */,
+				78FCED2C110F1AD15DD4504B2B548FE7 /* Support Files */,
+			);
+			path = zipzap;
+			sourceTree = "<group>";
+		};
+		A3A6763B4A744113B1341F9ED4714F73 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E1E6FEE355741A390D36BF8631F4E89B /* SSZipArchive.xcconfig */,
+				4DFFC9BCA63F62C78EC7D6F6643BA04B /* SSZipArchive-dummy.m */,
+				BE54D83A4F278ED09B058C57F6DFA80C /* SSZipArchive-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SSZipArchive";
+			sourceTree = "<group>";
+		};
+		C6C94720C1D4F37D52F014BD82C6465B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				28B189C0EABA905F993DFBC4B54EF36B /* Godzippa.xcconfig */,
+				E836F037DF56288BC7EDAB93409ED829 /* Godzippa-dummy.m */,
+				E583C6737ACC3837E3BAE6D1801EFA68 /* Godzippa-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Godzippa";
+			sourceTree = "<group>";
+		};
+		D87E59C92C948BEA1A9158D105C83D3D /* SSZipArchive */ = {
+			isa = PBXGroup;
+			children = (
+				6DEA356D06ABB7209F72F49A5A619789 /* aes.h */,
+				2C05A3237FF6CEF333D590E4F1795629 /* aes_via_ace.h */,
+				D670F4B112F31D7DEDE0498F0180DDE4 /* aescrypt.c */,
+				90A0DEA8D0F4C9FC0189C49162077D77 /* aeskey.c */,
+				51D07585357F92A0EDECEBD94C5A63A3 /* aesopt.h */,
+				6B5BF01128E6415DC5B93183E0884CE1 /* aestab.c */,
+				7D09C49C02B36B799A1F688CC265ECC9 /* aestab.h */,
+				BA2AA7D36C393C9B7D618D1B1800DDBC /* brg_endian.h */,
+				0EA274678FA4BE793EF0ECF8AB9639F1 /* brg_types.h */,
+				6AB5EF28A05FE658C14709FE572304B8 /* crypt.h */,
+				DECDCA98BA660BB7718532FA91FEFA90 /* entropy.c */,
+				996664E5A789E2B67811543C54C60934 /* entropy.h */,
+				586C3F5FFBEA4B182A8C7DF3F51C20E9 /* fileenc.c */,
+				210E691287C8EA16842AB5F08BAB54D4 /* fileenc.h */,
+				60BBEF23FBB237B664E0761C5E7644D6 /* hmac.c */,
+				8CEED15E0964AE1F4EEB764504331A57 /* hmac.h */,
+				C2589CA237695D7FBD985E6F360E704F /* ioapi.c */,
+				587A57815B2CE474E765FCFDF8EC4787 /* ioapi.h */,
+				A0F7162EDFD718B8F905FCF57A2CD5E5 /* mztools.c */,
+				A3361D9135E01A02FFE2F33F5E329B9B /* mztools.h */,
+				8CA85340E76612C329A30E55E5BFB431 /* prng.c */,
+				8605CCB4A04C408697C94A5AD9E5036E /* prng.h */,
+				D6A9CF89904AC3324D5DFC15F5280531 /* pwd2key.c */,
+				E1A99D74FA24F1D2E3EBFCDC4DD76227 /* pwd2key.h */,
+				10871205F32A8D5EF8F268A3F0D90CAA /* sha1.c */,
+				C9DE899DCCAE0A4ABDCB48039D575216 /* sha1.h */,
+				44E013870094EDE7602420F3C9B30BF3 /* SSZipArchive.h */,
+				DB30EBBB26ABA5A4C6BC6781072C972E /* SSZipArchive.m */,
+				0FF3C0A78D71C1CDE2CA8A404702C274 /* SSZipCommon.h */,
+				FDA2F89351869B5A46653147201FF3A9 /* unzip.c */,
+				6E6DAFB7DAF279FF8562B36631D03A14 /* unzip.h */,
+				4B32DE6EADFF33EFE316745B53E93D42 /* zip.c */,
+				68D178BCCBE2AB9A218D9E8E4C791273 /* zip.h */,
+				6CE54B1F964A5AE9570744B234CA5E9F /* ZipArchive.h */,
+				A3A6763B4A744113B1341F9ED4714F73 /* Support Files */,
 			);
 			path = SSZipArchive;
-			sourceTree = "<group>";
-		};
-		9E8957D5B79D02B8156473FE1779147D /* Godzippa */ = {
-			isa = PBXGroup;
-			children = (
-				1B57EF7648CFB1C5C8E139C77E836F51 /* Godzippa.h */,
-				601FEEEE65F494D6FE48BF233A21D13D /* NSData+Godzippa.h */,
-				F9B734352245E18A1C6A1E65369316EC /* NSData+Godzippa.m */,
-				FC9A91F320351561C1B6145DBDBD6A56 /* NSFileManager+Godzippa.h */,
-				142741C7F1A69AD775DC20AEADD0A127 /* NSFileManager+Godzippa.m */,
-				20783E98DC8ADA23A5461C02F8BE734F /* Support Files */,
-			);
-			path = Godzippa;
-			sourceTree = "<group>";
-		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		F4A890097E9119991ACA045F0A4D015F /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				385B4A62398B81FCF18AD1C56D3F8337 /* libGodzippa.a */,
-				6E0F71C5FB087A4B4DDDA1305A37247C /* libPods-XZDataCompressDemo.a */,
-				B824AE3BF992FB97B7D2641CE54AE33C /* libSSZipArchive.a */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		F9B99DC43320A5533BA1E7C91733D2D3 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				9E8957D5B79D02B8156473FE1779147D /* Godzippa */,
-				81311FEC308ED91F29F6AC2598BA80F9 /* SSZipArchive */,
-			);
-			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		165DC1AAFB8AB9904D5F33B87A276820 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F837BA6A14AE5F366672E63C8BD07F5 /* ZipZap.h in Headers */,
+				50C0D7DCBC50FB5EBB453E909F3245F4 /* ZZAESDecryptInputStream.h in Headers */,
+				1C5BFD3886CA083CA34F17758570507E /* ZZArchive.h in Headers */,
+				5603E55C59EE5A628498F7813A46C268 /* ZZArchiveEntry.h in Headers */,
+				63B01F9930BE55EAD6D857A0A96DCAEC /* ZZArchiveEntryWriter.h in Headers */,
+				3857294900B4324B11F99E3AC9A16708 /* ZZChannel.h in Headers */,
+				83C237C6537073843B3B3D1A5D186B0E /* ZZChannelOutput.h in Headers */,
+				F7BC416ADA60130BF877301B76677F3B /* ZZConstants.h in Headers */,
+				AA2A1BBBB7CE46718D48F983F6C06D10 /* ZZDataChannel.h in Headers */,
+				0DB65043A1070A131A1158DF9F9CA74A /* ZZDataChannelOutput.h in Headers */,
+				CDD7B0CBB042B95FBC4A0831D9EA2D3B /* ZZDataProvider.h in Headers */,
+				14A2BC61F9C5AF1A43C353C37DB71152 /* ZZDeflateOutputStream.h in Headers */,
+				E0F0BE68122A47587EB80A707882C7CE /* ZZError.h in Headers */,
+				C7880E8EB4F3029E531A01CD4DFA535C /* ZZFileChannel.h in Headers */,
+				464653446D54AF9BA17952818D1CE443 /* ZZFileChannelOutput.h in Headers */,
+				9BD8100C3B812A25807CB943B62F6540 /* ZZHeaders.h in Headers */,
+				A723FEAC747C941C5B3CF6DA48E9231B /* ZZInflateInputStream.h in Headers */,
+				90925975A5FBFAD4228B1930389CB974 /* ZZNewArchiveEntry.h in Headers */,
+				42F0FF23B285525109E8DF095197EE39 /* ZZNewArchiveEntryWriter.h in Headers */,
+				D13E094CAC9770542AB31D9E7866BB94 /* ZZOldArchiveEntry.h in Headers */,
+				8ACC3AB9D1BBECEDAEDD530D79D8E53C /* ZZOldArchiveEntryWriter.h in Headers */,
+				50FFC90F0DBE8B27393184DD7C64B741 /* ZZScopeGuard.h in Headers */,
+				497BEF07A1F83EA699CBA5B6B0F1DFF4 /* ZZStandardCryptoEngine.h in Headers */,
+				9EFEF12750CA8E0574A4364E5F0D05AD /* ZZStandardDecryptInputStream.h in Headers */,
+				51A6B25DFA8EDDE22D1A75B67C95945C /* ZZStoreOutputStream.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		36D45A25CEB65BDFBFBA274C5952214B /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -318,30 +525,30 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9237EA1B5CCAF5808C053CAF5BEA72A9 /* Headers */ = {
+		CAFADD3C2CD106C33F7C31AEDAD557D5 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4805D2BABBE4D68612D2B46D4D29E64A /* aes.h in Headers */,
-				082CD639FA3C73F5F7A9F76823763BE9 /* aes_via_ace.h in Headers */,
-				CED953E2F8548655DB4E301A1AE76ED6 /* aesopt.h in Headers */,
-				195045D6E1363AE90827EAC2963F3780 /* aestab.h in Headers */,
-				EFF7C13F0A17AFEB85682845D2B7E309 /* brg_endian.h in Headers */,
-				485256D917DE811BD23BC9D5BB2A7781 /* brg_types.h in Headers */,
-				7A360323932661D0678951CA835559A4 /* crypt.h in Headers */,
-				1C30B591DDF24B9E084D50B4387F5696 /* entropy.h in Headers */,
-				4F0800C3F5F3978BD07CDD4C5CFB2369 /* fileenc.h in Headers */,
-				4FF323971185FD20FB0A635EEABDD5C6 /* hmac.h in Headers */,
-				C4B919C77BCA40275B74507B02080A90 /* ioapi.h in Headers */,
-				03AEACFE5BFFD3E6E85679F3F844C655 /* mztools.h in Headers */,
-				E2F71C73D10BE00E08EBA304C1110D6B /* prng.h in Headers */,
-				174762D6F13BD38ACE11F6F127BC82DE /* pwd2key.h in Headers */,
-				26C2B9820FA054F51726A579AA869CFB /* sha1.h in Headers */,
-				BC74EE4DEA4D75BFC00085827CF5B2B2 /* SSZipArchive.h in Headers */,
-				7F59572D951D77B18F989C6A37418ABB /* SSZipCommon.h in Headers */,
-				CF73AFEF812A505DC9A126A11A2D1139 /* unzip.h in Headers */,
-				C03442E659118EA60FC04695AB436069 /* zip.h in Headers */,
-				AE6DB3CEC8F141BCFE5D05F124E4E936 /* ZipArchive.h in Headers */,
+				0EF902F849FB4BB51FF7E52CB9E64008 /* aes.h in Headers */,
+				6F61B657C9050404C28CDB323D662783 /* aes_via_ace.h in Headers */,
+				DE1BB3C0D392F9C0A560B4FA3CEBF903 /* aesopt.h in Headers */,
+				8E10C0FD28879CEEA69EAB994957B9E4 /* aestab.h in Headers */,
+				6BC754C6E450FEFCC96CEF150DC8F3A1 /* brg_endian.h in Headers */,
+				0F32B261BC326008938C6F75F34D9356 /* brg_types.h in Headers */,
+				7CCE89FF97B6D92CBA879A01844B68FD /* crypt.h in Headers */,
+				8D78A08A5AED679703C05AA53724ED55 /* entropy.h in Headers */,
+				09AE5FAEC3D12FF14429940792D6676D /* fileenc.h in Headers */,
+				5D97B6094C0E89F9A98FCFCB3503ECD9 /* hmac.h in Headers */,
+				2CEA5B181589D088E22844A06197007A /* ioapi.h in Headers */,
+				6315797654C7EE21F22054FAD2162FE7 /* mztools.h in Headers */,
+				54B5DB05E44CC306F345B5C01CB65264 /* prng.h in Headers */,
+				1E14E9ECD2CB4B836FBDB6F14C245BBB /* pwd2key.h in Headers */,
+				72AB83954580AF55FDF157A473DC28E2 /* sha1.h in Headers */,
+				F7EF9CFB6F83106D28A22C644CD138EF /* SSZipArchive.h in Headers */,
+				77BE849DE85343F42115EF8D5CC46899 /* SSZipCommon.h in Headers */,
+				28BAD9C8CE1B8698D181C23246C83B67 /* unzip.h in Headers */,
+				DDA8A1CD2D6E96FB000346E4F39DC907 /* zip.h in Headers */,
+				7AB9A24A615B32BFB7626C72E5F70CFF /* ZipArchive.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -362,34 +569,16 @@
 			);
 			name = Godzippa;
 			productName = Godzippa;
-			productReference = 385B4A62398B81FCF18AD1C56D3F8337 /* libGodzippa.a */;
+			productReference = BF2C9DDFB998DEA2E639BA0C85B7653E /* libGodzippa.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		1A5FED00F0EE5B74873DC63093A2CAD2 /* Pods-XZDataCompressDemo */ = {
+		2B498F36939F7B88685027DDE7C20143 /* SSZipArchive */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A1CD4D61ADEA7A40B772821765FD00A9 /* Build configuration list for PBXNativeTarget "Pods-XZDataCompressDemo" */;
+			buildConfigurationList = 52E4AB158426A9A950E3B5D6BB18EAE2 /* Build configuration list for PBXNativeTarget "SSZipArchive" */;
 			buildPhases = (
-				E3FD346A6E5DCAE9D3BC2AFBC75CB0E9 /* Sources */,
-				38049221EA940437B6D708D460E34F70 /* Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				86EB8C89A92A42D0AFA3AE2BACFDC7D0 /* PBXTargetDependency */,
-				8F3C2D9692F3EFC524E45BA23B2AE873 /* PBXTargetDependency */,
-			);
-			name = "Pods-XZDataCompressDemo";
-			productName = "Pods-XZDataCompressDemo";
-			productReference = 6E0F71C5FB087A4B4DDDA1305A37247C /* libPods-XZDataCompressDemo.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		33358BF2212CC1F9755A51F6C56F444D /* SSZipArchive */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 5B9E1E70A20510BDFE0504091FBE94C5 /* Build configuration list for PBXNativeTarget "SSZipArchive" */;
-			buildPhases = (
-				8A78034293B60182C5795CDF29617E63 /* Sources */,
-				456E17BCAE59AA6AF6929E7CC9B188CB /* Frameworks */,
-				9237EA1B5CCAF5808C053CAF5BEA72A9 /* Headers */,
+				0533A0C9A320032CDA953DE6F8B28322 /* Sources */,
+				8A23783C6633313415C3B5E46F5BDA42 /* Frameworks */,
+				CAFADD3C2CD106C33F7C31AEDAD557D5 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -397,7 +586,43 @@
 			);
 			name = SSZipArchive;
 			productName = SSZipArchive;
-			productReference = B824AE3BF992FB97B7D2641CE54AE33C /* libSSZipArchive.a */;
+			productReference = 3F87422B0F7859DB3754A946D305C642 /* libSSZipArchive.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		74B4BF8FDBF63CAFDD00D9BBC7413CA2 /* Pods-XZDataCompressDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 997BD572CF35E873C341DAC0A5A34984 /* Build configuration list for PBXNativeTarget "Pods-XZDataCompressDemo" */;
+			buildPhases = (
+				C07F59E73684C9FB528FA469C200E5B8 /* Sources */,
+				9BDB6CBD8F558A6EBB601EA417EC4FB1 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C4FBA8B7D3870C1A0B2A847B371C86AC /* PBXTargetDependency */,
+				9648A577CBCDAB180E494F24647C08DE /* PBXTargetDependency */,
+				23619BDEBBD81C407FC8819FE285B8CF /* PBXTargetDependency */,
+			);
+			name = "Pods-XZDataCompressDemo";
+			productName = "Pods-XZDataCompressDemo";
+			productReference = 79D041EA9953FF9C18AEE261F824AFAD /* libPods-XZDataCompressDemo.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		B5B4080D25933E66447A52C31AA3FD9F /* zipzap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD8E856BF4273254FEC84FF359A37987 /* Build configuration list for PBXNativeTarget "zipzap" */;
+			buildPhases = (
+				0AE554013845364201A933330E62BDB7 /* Sources */,
+				324CA039F7420A4666956E73B1C8507F /* Frameworks */,
+				165DC1AAFB8AB9904D5F33B87A276820 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = zipzap;
+			productName = zipzap;
+			productReference = D0B4F6A83DE6587F323394725E17E3A8 /* libzipzap.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -417,37 +642,72 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = F4A890097E9119991ACA045F0A4D015F /* Products */;
+			productRefGroup = 18F60988364633E9F2D96FFEB1EEF671 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				07D7C43B2A2266BE473C42BC7279AFC5 /* Godzippa */,
-				1A5FED00F0EE5B74873DC63093A2CAD2 /* Pods-XZDataCompressDemo */,
-				33358BF2212CC1F9755A51F6C56F444D /* SSZipArchive */,
+				74B4BF8FDBF63CAFDD00D9BBC7413CA2 /* Pods-XZDataCompressDemo */,
+				2B498F36939F7B88685027DDE7C20143 /* SSZipArchive */,
+				B5B4080D25933E66447A52C31AA3FD9F /* zipzap */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		8A78034293B60182C5795CDF29617E63 /* Sources */ = {
+		0533A0C9A320032CDA953DE6F8B28322 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				68CD5B43C3A9DAB47C8C9B43874A0BF6 /* aescrypt.c in Sources */,
-				DDCDACFA2046BA9530EBA36E0B830A56 /* aeskey.c in Sources */,
-				2008D8405BA2C22450327AD388AA730C /* aestab.c in Sources */,
-				D4E8BD28111176CEED0D768E5B679FC8 /* entropy.c in Sources */,
-				5596476BFE442BDB2C25F0149C190053 /* fileenc.c in Sources */,
-				07380DA96AEFD25E285547EB5A4E4C00 /* hmac.c in Sources */,
-				FFFC4C741B9ACAF6C42B2A3C368F67BD /* ioapi.c in Sources */,
-				9582BA8186E4FCE31CC8C45BFA82E3DC /* mztools.c in Sources */,
-				01C097E68A7699FCBC9DA149EBEE4BE3 /* prng.c in Sources */,
-				2C055C763D5EB46CC2F98E96D1BF54C0 /* pwd2key.c in Sources */,
-				DD5FE907E861F29D5A3A316412886B9B /* sha1.c in Sources */,
-				547F56CFF1728ACAC68EE8EF4984FE21 /* SSZipArchive-dummy.m in Sources */,
-				078CB46D11D52B3ACE006822639454D1 /* SSZipArchive.m in Sources */,
-				6FE7ADA390B390EF2EE8B9124D8A3DFF /* unzip.c in Sources */,
-				79F60B7E9613CFDE32C9097F26C58D85 /* zip.c in Sources */,
+				581A4C8CE9F9026691B4D04CD3A787B1 /* aescrypt.c in Sources */,
+				5E180E045A5C65E32E03D6E0042EBD29 /* aeskey.c in Sources */,
+				A8FB3327F531D32A7E259518A352CEA9 /* aestab.c in Sources */,
+				3E9BCCA1B8028647E261F9ADED06E53D /* entropy.c in Sources */,
+				C59D3F325CF18596791D835F51AC86EA /* fileenc.c in Sources */,
+				26ED722F78DDB5002032E1D2F30523D0 /* hmac.c in Sources */,
+				0EACBE1614CAA2351C81F40D20B4E071 /* ioapi.c in Sources */,
+				0CEFBD864803AFF6CF76985483251A54 /* mztools.c in Sources */,
+				5A948D1465CE8EBE379C92776352ACD9 /* prng.c in Sources */,
+				A6CE18BCE73F5D59386ABD97160D03F2 /* pwd2key.c in Sources */,
+				FDE29339CB9D4994B05410C6F3D2C1EB /* sha1.c in Sources */,
+				33CEDF4A1DA0FADAED42CD619DFFD1C6 /* SSZipArchive-dummy.m in Sources */,
+				1D9A783632CBAD9E561E7911822EECB5 /* SSZipArchive.m in Sources */,
+				57561CE99BBF44DB1FC00F4EAA6CB7BC /* unzip.c in Sources */,
+				05B776BDB828B65671CE0195B5AA88A2 /* zip.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AE554013845364201A933330E62BDB7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16AB609A0C4BCE886E73E5B634833F8B /* zipzap-dummy.m in Sources */,
+				B821B783437583AF614B104E8C04C917 /* ZZAESDecryptInputStream.mm in Sources */,
+				F221C7D0D6B4483DFCB6D699C2E3924D /* ZZArchive.mm in Sources */,
+				7E0C8538A508000DF523F7849D9D4579 /* ZZArchiveEntry.m in Sources */,
+				F389362533B4EB797FD06395A38FA8FE /* ZZConstants.m in Sources */,
+				DA211D9EF7B356493624433D4D72E098 /* ZZDataChannel.m in Sources */,
+				A2C92A9897940E5385278B74DBB37E66 /* ZZDataChannelOutput.m in Sources */,
+				362000AF536C60008C4F583CF96AA461 /* ZZDeflateOutputStream.m in Sources */,
+				EAB4D94000ADE3F8DE0A44926F4E69A3 /* ZZError.m in Sources */,
+				136CC9B5D8694F3BE9FECB6D0B14B819 /* ZZFileChannel.m in Sources */,
+				F9A21E7E21A13AE683D0F6D1C85F886E /* ZZFileChannelOutput.m in Sources */,
+				B6A1D8D80288EBFAB46672544B60738E /* ZZInflateInputStream.m in Sources */,
+				EDEF64F8B43EF3615F9FF5E89E45BE84 /* ZZNewArchiveEntry.mm in Sources */,
+				ECC145C7FD2C16922C6848B8BF0BCD1A /* ZZNewArchiveEntryWriter.mm in Sources */,
+				719A87D52A249D70922363FFC83FE142 /* ZZOldArchiveEntry.mm in Sources */,
+				2EF6F358D5DAC71866BE2CC4BD37956D /* ZZOldArchiveEntryWriter.mm in Sources */,
+				3F99B1583FD0C6844D4AEE8F4A009276 /* ZZStandardCryptoEngine.cpp in Sources */,
+				0BEC67B6D0CDD811FEEC0A695318433D /* ZZStandardDecryptInputStream.mm in Sources */,
+				FCCDF880323E5CC03FCAABCBF8C1F317 /* ZZStoreOutputStream.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C07F59E73684C9FB528FA469C200E5B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84CC165FDCF96EAD2328F72CB06B8683 /* Pods-XZDataCompressDemo-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -461,35 +721,54 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E3FD346A6E5DCAE9D3BC2AFBC75CB0E9 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B9CCE3079747EF4A33ACB020FB6733FE /* Pods-XZDataCompressDemo-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		86EB8C89A92A42D0AFA3AE2BACFDC7D0 /* PBXTargetDependency */ = {
+		23619BDEBBD81C407FC8819FE285B8CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = zipzap;
+			target = B5B4080D25933E66447A52C31AA3FD9F /* zipzap */;
+			targetProxy = 2A41EE8D8E99CA5595CC349B57940852 /* PBXContainerItemProxy */;
+		};
+		9648A577CBCDAB180E494F24647C08DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SSZipArchive;
+			target = 2B498F36939F7B88685027DDE7C20143 /* SSZipArchive */;
+			targetProxy = 759CAB9632A4E3F557E5AF026B31D15C /* PBXContainerItemProxy */;
+		};
+		C4FBA8B7D3870C1A0B2A847B371C86AC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Godzippa;
 			target = 07D7C43B2A2266BE473C42BC7279AFC5 /* Godzippa */;
-			targetProxy = BB98D479FA353FC176D9710D91CCAD6B /* PBXContainerItemProxy */;
-		};
-		8F3C2D9692F3EFC524E45BA23B2AE873 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = SSZipArchive;
-			target = 33358BF2212CC1F9755A51F6C56F444D /* SSZipArchive */;
-			targetProxy = BCA4511C87BB4BC254EDF2961F4CDCAE /* PBXContainerItemProxy */;
+			targetProxy = 3E8990CCE180D4A3F9EFEEC7D8A918E7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		1F602C33F73CE2E071722A5C1B46D125 /* Release */ = {
+		15F890C1958D1BAD32EC59C6722D270E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 03A6A1EA8F29350CEC3DB5254286E9A3 /* SSZipArchive.xcconfig */;
+			baseConfigurationReference = 3D4C7D79DE28ACC44626241FF083DE55 /* zipzap.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/zipzap/zipzap-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		195DAC056A9A5799FF738DE03E854C1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1E6FEE355741A390D36BF8631F4E89B /* SSZipArchive.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
@@ -508,22 +787,22 @@
 			};
 			name = Release;
 		};
-		341CEEB718047875A62CC469AFC0489B /* Debug */ = {
+		2BBD70649718F42C7AA3696060AD42BE /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 03A6A1EA8F29350CEC3DB5254286E9A3 /* SSZipArchive.xcconfig */;
+			baseConfigurationReference = EE1902F2CA99C673B4D4378CE9273DFF /* Pods-XZDataCompressDemo.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/SSZipArchive/SSZipArchive-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MACH_O_TYPE = staticlib;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 			};
@@ -571,17 +850,38 @@
 			};
 			name = Debug;
 		};
-		78D5286D0A58FF9495A95039AC5BA10A /* Debug */ = {
+		583549DA334E3B8619EB11B8715D0E2C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EE1902F2CA99C673B4D4378CE9273DFF /* Pods-XZDataCompressDemo.debug.xcconfig */;
+			baseConfigurationReference = E1E6FEE355741A390D36BF8631F4E89B /* SSZipArchive.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SSZipArchive/SSZipArchive-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		5E6170F03B29BD0E4804B3B10C62B4FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C19450633F09429875641C7E4CC793DF /* Pods-XZDataCompressDemo.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MACH_O_TYPE = staticlib;
-				MTL_ENABLE_DEBUG_INFO = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -590,11 +890,32 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 			};
+			name = Release;
+		};
+		72BA7AF3401A2340450019609F84329D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D4C7D79DE28ACC44626241FF083DE55 /* zipzap.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/zipzap/zipzap-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
 			name = Debug;
 		};
 		9C83138A3EACB8B8BF6C78E7F4534AA3 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C0680737BDB448394F1DBF06F45E219B /* Godzippa.xcconfig */;
+			baseConfigurationReference = 28B189C0EABA905F993DFBC4B54EF36B /* Godzippa.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
@@ -615,7 +936,7 @@
 		};
 		BA2B8C859F26A61E47D3266014DF3B14 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C0680737BDB448394F1DBF06F45E219B /* Godzippa.xcconfig */;
+			baseConfigurationReference = 28B189C0EABA905F993DFBC4B54EF36B /* Godzippa.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEBUG_INFORMATION_FORMAT = dwarf;
@@ -633,27 +954,6 @@
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
-		};
-		F0F061389CEF850D4F6CE48949A9E6D2 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C19450633F09429875641C7E4CC793DF /* Pods-XZDataCompressDemo.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				MACH_O_TYPE = staticlib;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
 		};
 		F325026B55060D3B22BEC0BAB5FA7344 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -714,20 +1014,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5B9E1E70A20510BDFE0504091FBE94C5 /* Build configuration list for PBXNativeTarget "SSZipArchive" */ = {
+		52E4AB158426A9A950E3B5D6BB18EAE2 /* Build configuration list for PBXNativeTarget "SSZipArchive" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				341CEEB718047875A62CC469AFC0489B /* Debug */,
-				1F602C33F73CE2E071722A5C1B46D125 /* Release */,
+				583549DA334E3B8619EB11B8715D0E2C /* Debug */,
+				195DAC056A9A5799FF738DE03E854C1D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A1CD4D61ADEA7A40B772821765FD00A9 /* Build configuration list for PBXNativeTarget "Pods-XZDataCompressDemo" */ = {
+		997BD572CF35E873C341DAC0A5A34984 /* Build configuration list for PBXNativeTarget "Pods-XZDataCompressDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				78D5286D0A58FF9495A95039AC5BA10A /* Debug */,
-				F0F061389CEF850D4F6CE48949A9E6D2 /* Release */,
+				2BBD70649718F42C7AA3696060AD42BE /* Debug */,
+				5E6170F03B29BD0E4804B3B10C62B4FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD8E856BF4273254FEC84FF359A37987 /* Build configuration list for PBXNativeTarget "zipzap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72BA7AF3401A2340450019609F84329D /* Debug */,
+				15F890C1958D1BAD32EC59C6722D270E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
